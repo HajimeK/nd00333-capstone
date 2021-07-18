@@ -1,0 +1,9 @@
+az login
+az group create --name udacitycapstone --location japaneast
+az ml workspace create -w udacityws -g udacitycapstone
+az ad sp create-for-rbac --sdk-auth --name udacitysp
+"clientId"
+az ad sp show --id <client id>
+"objectId":
+az ml workspace share -w udacityws -g udacitycapstone --user <object id> --role owner
+az ml computetarget create computeinstance --name vmcapstone -s "STANDARD_D3_V2" -w udacityws -g udacitycapstone
