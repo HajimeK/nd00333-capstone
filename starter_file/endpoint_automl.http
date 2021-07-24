@@ -1,0 +1,4 @@
+POST http://d84cf310-7fdb-4eec-a014-c02d9d2c8c3e.japaneast.azurecontainer.io/score
+Content-Type: application/json
+
+{"data": [{"age": 37, "workclass": " Private", "education_level": " Some-college", "education-num": 10.0, "marital-status": " Married-civ-spouse", "occupation": " Exec-managerial", "relationship": " Husband", "race": " Black", "sex": " Male", "capital-gain": 0.0, "capital-loss": 0.0, "hours-per-week": 80.0, "native-country": " United-States"}]}

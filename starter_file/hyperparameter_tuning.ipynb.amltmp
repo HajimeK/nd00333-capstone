@@ -19,7 +19,7 @@
       "execution_count": 1,
       "metadata": {
         "gather": {
-          "logged": 1626891313164
+          "logged": 1627018740253
         }
       }
     },
@@ -44,7 +44,7 @@
       "execution_count": 2,
       "metadata": {
         "gather": {
-          "logged": 1626891325564
+          "logged": 1627018749793
         },
         "jupyter": {
           "outputs_hidden": false,
@@ -104,7 +104,7 @@
           }
         },
         "gather": {
-          "logged": 1626891326511
+          "logged": 1627018750786
         }
       }
     },
@@ -191,7 +191,7 @@
       "execution_count": 4,
       "metadata": {
         "gather": {
-          "logged": 1626891332121
+          "logged": 1627018754485
         },
         "jupyter": {
           "outputs_hidden": false,
@@ -224,7 +224,7 @@
       "execution_count": 5,
       "metadata": {
         "gather": {
-          "logged": 1626891343192
+          "logged": 1627018758532
         },
         "jupyter": {
           "outputs_hidden": false,
@@ -276,7 +276,7 @@
             "application/vnd.jupyter.widget-view+json": {
               "version_major": 2,
               "version_minor": 0,
-              "model_id": "77187823e4b24a589d81fb70bb31736d"
+              "model_id": "6ada955306ef442ea951770751c09371"
             }
           },
           "metadata": {}
@@ -284,7 +284,7 @@
         {
           "output_type": "display_data",
           "data": {
-            "application/aml.mini.widget.v1": "{\"status\": \"Completed\", \"workbench_run_details_uri\": \"https://ml.azure.com/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c?wsid=/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourcegroups/udacitycapstone/workspaces/udacityws&tid=60e63508-9cfd-4013-9a1f-7610707b07ce\", \"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c\", \"run_properties\": {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c\", \"created_utc\": \"2021-07-21T18:15:43.305425Z\", \"properties\": {\"primary_metric_config\": \"{\\\"name\\\": \\\"Accuracy\\\", \\\"goal\\\": \\\"maximize\\\"}\", \"resume_from\": \"null\", \"runTemplate\": \"HyperDrive\", \"azureml.runsource\": \"hyperdrive\", \"platform\": \"AML\", \"ContentSnapshotId\": \"e4a27e66-b40f-4eed-b41a-3313e2cad3ec\", \"score\": \"0.7575623562710065\", \"best_child_run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9\", \"best_metric_status\": \"Succeeded\"}, \"tags\": {\"_aml_system_max_concurrent_jobs\": \"6\", \"max_concurrent_jobs\": \"6\", \"_aml_system_max_total_jobs\": \"100\", \"max_total_jobs\": \"100\", \"_aml_system_max_duration_minutes\": \"10080\", \"max_duration_minutes\": \"10080\", \"_aml_system_policy_config\": \"{\\\"name\\\": \\\"BANDIT\\\", \\\"properties\\\": {\\\"evaluation_interval\\\": 2, \\\"delay_evaluation\\\": 0, \\\"slack_factor\\\": 0.1}}\", \"policy_config\": \"{\\\"name\\\": \\\"BANDIT\\\", \\\"properties\\\": {\\\"evaluation_interval\\\": 2, \\\"delay_evaluation\\\": 0, \\\"slack_factor\\\": 0.1}}\", \"_aml_system_generator_config\": \"{\\\"name\\\": \\\"RANDOM\\\", \\\"parameter_space\\\": {\\\"--n_estimators\\\": [\\\"choice\\\", [[10, 30, 50, 70, 90]]], \\\"--max_depth\\\": [\\\"choice\\\", [[5, 7, 9, 10]]]}}\", \"generator_config\": \"{\\\"name\\\": \\\"RANDOM\\\", \\\"parameter_space\\\": {\\\"--n_estimators\\\": [\\\"choice\\\", [[10, 30, 50, 70, 90]]], \\\"--max_depth\\\": [\\\"choice\\\", [[5, 7, 9, 10]]]}}\", \"_aml_system_primary_metric_config\": \"{\\\"name\\\": \\\"Accuracy\\\", \\\"goal\\\": \\\"maximize\\\"}\", \"primary_metric_config\": \"{\\\"name\\\": \\\"Accuracy\\\", \\\"goal\\\": \\\"maximize\\\"}\", \"_aml_system_platform_config\": \"{\\\"ServiceAddress\\\": \\\"https://japaneast.experiments.azureml.net\\\", \\\"ServiceArmScope\\\": \\\"subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/capstone-hyperdrive\\\", \\\"SubscriptionId\\\": \\\"653662f1-95de-4498-b876-1fd625bf5d18\\\", \\\"ResourceGroupName\\\": \\\"udacitycapstone\\\", \\\"WorkspaceName\\\": \\\"udacityws\\\", \\\"ExperimentName\\\": \\\"capstone-hyperdrive\\\", \\\"Definition\\\": {\\\"Overrides\\\": {\\\"script\\\": \\\"train.py\\\", \\\"arguments\\\": [], \\\"target\\\": \\\"cpu-cluster\\\", \\\"framework\\\": \\\"Python\\\", \\\"communicator\\\": \\\"None\\\", \\\"maxRunDurationSeconds\\\": null, \\\"nodeCount\\\": 1, \\\"priority\\\": null, \\\"environment\\\": {\\\"name\\\": null, \\\"version\\\": null, \\\"environmentVariables\\\": {\\\"EXAMPLE_ENV_VAR\\\": \\\"EXAMPLE_VALUE\\\"}, \\\"python\\\": {\\\"userManagedDependencies\\\": true, \\\"interpreterPath\\\": \\\"python\\\", \\\"condaDependenciesFile\\\": null, \\\"baseCondaEnvironment\\\": null, \\\"condaDependencies\\\": {\\\"name\\\": \\\"project_environment\\\", \\\"dependencies\\\": [\\\"python=3.6.2\\\", {\\\"pip\\\": [\\\"azureml-defaults\\\"]}], \\\"channels\\\": [\\\"anaconda\\\", \\\"conda-forge\\\"]}}, \\\"docker\\\": {\\\"enabled\\\": true, \\\"baseImage\\\": \\\"sklearn:0.20.3-cpu\\\", \\\"baseDockerfile\\\": null, \\\"sharedVolumes\\\": true, \\\"shmSize\\\": \\\"2g\\\", \\\"arguments\\\": [], \\\"baseImageRegistry\\\": {\\\"address\\\": \\\"viennaprivate.azurecr.io\\\", \\\"username\\\": null, \\\"password\\\": null, \\\"registryIdentity\\\": null}, \\\"platform\\\": {\\\"os\\\": \\\"Linux\\\", \\\"architecture\\\": \\\"amd64\\\"}}, \\\"spark\\\": {\\\"repositories\\\": [], \\\"packages\\\": [], \\\"precachePackages\\\": false}, \\\"databricks\\\": {\\\"mavenLibraries\\\": [], \\\"pypiLibraries\\\": [], \\\"rcranLibraries\\\": [], \\\"jarLibraries\\\": [], \\\"eggLibraries\\\": []}, \\\"r\\\": null, \\\"inferencingStackVersion\\\": null}, \\\"history\\\": {\\\"outputCollection\\\": true, \\\"snapshotProject\\\": true, \\\"directoriesToWatch\\\": [\\\"logs\\\"]}, \\\"spark\\\": {\\\"configuration\\\": {\\\"spark.app.name\\\": \\\"Azure ML Experiment\\\", \\\"spark.yarn.maxAppAttempts\\\": 1}}, \\\"docker\\\": {\\\"useDocker\\\": false, \\\"sharedVolumes\\\": true, \\\"arguments\\\": [], \\\"shmSize\\\": \\\"2g\\\"}, \\\"hdi\\\": {\\\"yarnDeployMode\\\": \\\"cluster\\\"}, \\\"tensorflow\\\": {\\\"workerCount\\\": 1, \\\"parameterServerCount\\\": 1}, \\\"mpi\\\": {\\\"processCountPerNode\\\": 1, \\\"nodeCount\\\": 1}, \\\"pytorch\\\": {\\\"communicationBackend\\\": \\\"nccl\\\", \\\"processCount\\\": null, \\\"nodeCount\\\": 1}, \\\"paralleltask\\\": {\\\"maxRetriesPerWorker\\\": 0, \\\"workerCountPerNode\\\": 1, \\\"terminalExitCodes\\\": null}, \\\"dataReferences\\\": {}, \\\"data\\\": {}, \\\"outputData\\\": {}, \\\"sourceDirectoryDataStore\\\": null, \\\"amlcompute\\\": {\\\"vmSize\\\": null, \\\"vmPriority\\\": null, \\\"retainCluster\\\": false, \\\"name\\\": null, \\\"clusterMaxNodeCount\\\": 1}, \\\"credentialPassthrough\\\": false, \\\"command\\\": \\\"\\\"}, \\\"TargetDetails\\\": null, \\\"SnapshotId\\\": \\\"e4a27e66-b40f-4eed-b41a-3313e2cad3ec\\\", \\\"TelemetryValues\\\": {\\\"amlClientType\\\": \\\"azureml-sdk-train\\\", \\\"amlClientModule\\\": \\\"[Scrubbed]\\\", \\\"amlClientFunction\\\": \\\"[Scrubbed]\\\", \\\"tenantId\\\": \\\"60e63508-9cfd-4013-9a1f-7610707b07ce\\\", \\\"amlClientRequestId\\\": \\\"e3da4e1c-686b-4bde-9e1f-2d3691f3f269\\\", \\\"amlClientSessionId\\\": \\\"85c7d754-6e5f-4eb8-bc0a-dd7f75399b3f\\\", \\\"subscriptionId\\\": \\\"653662f1-95de-4498-b876-1fd625bf5d18\\\", \\\"estimator\\\": \\\"SKLearn\\\", \\\"samplingMethod\\\": \\\"RANDOM\\\", \\\"terminationPolicy\\\": \\\"Bandit\\\", \\\"primaryMetricGoal\\\": \\\"maximize\\\", \\\"maxTotalRuns\\\": 100, \\\"maxConcurrentRuns\\\": 6, \\\"maxDurationMinutes\\\": 10080, \\\"vmSize\\\": null}}}\", \"platform_config\": \"{\\\"ServiceAddress\\\": \\\"https://japaneast.experiments.azureml.net\\\", \\\"ServiceArmScope\\\": \\\"subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/capstone-hyperdrive\\\", \\\"SubscriptionId\\\": \\\"653662f1-95de-4498-b876-1fd625bf5d18\\\", \\\"ResourceGroupName\\\": \\\"udacitycapstone\\\", \\\"WorkspaceName\\\": \\\"udacityws\\\", \\\"ExperimentName\\\": \\\"capstone-hyperdrive\\\", \\\"Definition\\\": {\\\"Overrides\\\": {\\\"script\\\": \\\"train.py\\\", \\\"arguments\\\": [], \\\"target\\\": \\\"cpu-cluster\\\", \\\"framework\\\": \\\"Python\\\", \\\"communicator\\\": \\\"None\\\", \\\"maxRunDurationSeconds\\\": null, \\\"nodeCount\\\": 1, \\\"priority\\\": null, \\\"environment\\\": {\\\"name\\\": null, \\\"version\\\": null, \\\"environmentVariables\\\": {\\\"EXAMPLE_ENV_VAR\\\": \\\"EXAMPLE_VALUE\\\"}, \\\"python\\\": {\\\"userManagedDependencies\\\": true, \\\"interpreterPath\\\": \\\"python\\\", \\\"condaDependenciesFile\\\": null, \\\"baseCondaEnvironment\\\": null, \\\"condaDependencies\\\": {\\\"name\\\": \\\"project_environment\\\", \\\"dependencies\\\": [\\\"python=3.6.2\\\", {\\\"pip\\\": [\\\"azureml-defaults\\\"]}], \\\"channels\\\": [\\\"anaconda\\\", \\\"conda-forge\\\"]}}, \\\"docker\\\": {\\\"enabled\\\": true, \\\"baseImage\\\": \\\"sklearn:0.20.3-cpu\\\", \\\"baseDockerfile\\\": null, \\\"sharedVolumes\\\": true, \\\"shmSize\\\": \\\"2g\\\", \\\"arguments\\\": [], \\\"baseImageRegistry\\\": {\\\"address\\\": \\\"viennaprivate.azurecr.io\\\", \\\"username\\\": null, \\\"password\\\": null, \\\"registryIdentity\\\": null}, \\\"platform\\\": {\\\"os\\\": \\\"Linux\\\", \\\"architecture\\\": \\\"amd64\\\"}}, \\\"spark\\\": {\\\"repositories\\\": [], \\\"packages\\\": [], \\\"precachePackages\\\": false}, \\\"databricks\\\": {\\\"mavenLibraries\\\": [], \\\"pypiLibraries\\\": [], \\\"rcranLibraries\\\": [], \\\"jarLibraries\\\": [], \\\"eggLibraries\\\": []}, \\\"r\\\": null, \\\"inferencingStackVersion\\\": null}, \\\"history\\\": {\\\"outputCollection\\\": true, \\\"snapshotProject\\\": true, \\\"directoriesToWatch\\\": [\\\"logs\\\"]}, \\\"spark\\\": {\\\"configuration\\\": {\\\"spark.app.name\\\": \\\"Azure ML Experiment\\\", \\\"spark.yarn.maxAppAttempts\\\": 1}}, \\\"docker\\\": {\\\"useDocker\\\": false, \\\"sharedVolumes\\\": true, \\\"arguments\\\": [], \\\"shmSize\\\": \\\"2g\\\"}, \\\"hdi\\\": {\\\"yarnDeployMode\\\": \\\"cluster\\\"}, \\\"tensorflow\\\": {\\\"workerCount\\\": 1, \\\"parameterServerCount\\\": 1}, \\\"mpi\\\": {\\\"processCountPerNode\\\": 1, \\\"nodeCount\\\": 1}, \\\"pytorch\\\": {\\\"communicationBackend\\\": \\\"nccl\\\", \\\"processCount\\\": null, \\\"nodeCount\\\": 1}, \\\"paralleltask\\\": {\\\"maxRetriesPerWorker\\\": 0, \\\"workerCountPerNode\\\": 1, \\\"terminalExitCodes\\\": null}, \\\"dataReferences\\\": {}, \\\"data\\\": {}, \\\"outputData\\\": {}, \\\"sourceDirectoryDataStore\\\": null, \\\"amlcompute\\\": {\\\"vmSize\\\": null, \\\"vmPriority\\\": null, \\\"retainCluster\\\": false, \\\"name\\\": null, \\\"clusterMaxNodeCount\\\": 1}, \\\"credentialPassthrough\\\": false, \\\"command\\\": \\\"\\\"}, \\\"TargetDetails\\\": null, \\\"SnapshotId\\\": \\\"e4a27e66-b40f-4eed-b41a-3313e2cad3ec\\\", \\\"TelemetryValues\\\": {\\\"amlClientType\\\": \\\"azureml-sdk-train\\\", \\\"amlClientModule\\\": \\\"[Scrubbed]\\\", \\\"amlClientFunction\\\": \\\"[Scrubbed]\\\", \\\"tenantId\\\": \\\"60e63508-9cfd-4013-9a1f-7610707b07ce\\\", \\\"amlClientRequestId\\\": \\\"e3da4e1c-686b-4bde-9e1f-2d3691f3f269\\\", \\\"amlClientSessionId\\\": \\\"85c7d754-6e5f-4eb8-bc0a-dd7f75399b3f\\\", \\\"subscriptionId\\\": \\\"653662f1-95de-4498-b876-1fd625bf5d18\\\", \\\"estimator\\\": \\\"SKLearn\\\", \\\"samplingMethod\\\": \\\"RANDOM\\\", \\\"terminationPolicy\\\": \\\"Bandit\\\", \\\"primaryMetricGoal\\\": \\\"maximize\\\", \\\"maxTotalRuns\\\": 100, \\\"maxConcurrentRuns\\\": 6, \\\"maxDurationMinutes\\\": 10080, \\\"vmSize\\\": null}}}\", \"_aml_system_resume_child_runs\": \"null\", \"resume_child_runs\": \"null\", \"_aml_system_all_jobs_generated\": \"true\", \"all_jobs_generated\": \"true\", \"_aml_system_cancellation_requested\": \"false\", \"cancellation_requested\": \"false\", \"_aml_system_progress_metadata_evaluation_timestamp\": \"\\\"2021-07-21T18:15:44.320731\\\"\", \"progress_metadata_evaluation_timestamp\": \"\\\"2021-07-21T18:15:44.320731\\\"\", \"_aml_system_progress_metadata_digest\": \"\\\"79dd962af1c239d0d15e6140ef62909b2908754ece69260a7252013e8c2916ef\\\"\", \"progress_metadata_digest\": \"\\\"79dd962af1c239d0d15e6140ef62909b2908754ece69260a7252013e8c2916ef\\\"\", \"_aml_system_progress_metadata_active_timestamp\": \"\\\"2021-07-21T18:15:44.320731\\\"\", \"progress_metadata_active_timestamp\": \"\\\"2021-07-21T18:15:44.320731\\\"\", \"_aml_system_optimizer_state_artifact\": \"null\", \"_aml_system_outdated_optimizer_state_artifacts\": \"\\\"[]\\\"\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_0\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 10}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_0\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 10}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_1\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 70}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_1\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 70}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_2\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 30}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_2\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 30}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_3\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 10}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_3\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 10}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_4\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 50}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_4\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 50}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_5\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 30}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_5\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 30}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_6\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 50}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_6\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 50}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_7\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 90}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_7\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 90}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_8\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 50}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_8\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 50}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 70}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 70}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_10\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 90}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_10\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 90}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_11\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 10}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_11\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 10}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_12\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 90}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_12\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 90}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_13\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 70}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_13\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 70}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_14\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 30}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_14\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 30}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_15\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 50}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_15\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 50}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_16\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 10}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_16\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 10}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_17\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 30}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_17\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 30}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_18\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 90}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_18\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 90}\", \"_aml_system_HD_414d1634-fa02-4c03-a50d-39f4cff4733c_19\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 70}\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_19\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 70}\", \"_aml_system_final_best_metric_update_retry_count\": \"1\", \"final_best_metric_update_retry_count\": \"1\"}, \"end_time_utc\": \"2021-07-21T18:22:50.672602Z\", \"status\": \"Completed\", \"log_files\": {\"azureml-logs/hyperdrive.txt\": \"https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c/azureml-logs/hyperdrive.txt?sv=2019-02-02&sr=b&sig=0aqN8i6ENbGpmFpzkQMY11RrUNykUgjRRclPiUyCzoU%3D&st=2021-07-21T18%3A12%3A52Z&se=2021-07-22T02%3A22%3A52Z&sp=r\"}, \"log_groups\": [[\"azureml-logs/hyperdrive.txt\"]], \"run_duration\": \"0:07:07\", \"run_number\": \"418\", \"run_queued_details\": {\"status\": \"Completed\", \"details\": null}, \"hyper_parameters\": {\"--n_estimators\": [\"choice\", [[10, 30, 50, 70, 90]]], \"--max_depth\": [\"choice\", [[5, 7, 9, 10]]]}}, \"child_runs\": [{\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_4\", \"run_number\": 419, \"metric\": 0.75190165, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:17:13.700859Z\", \"end_time\": \"2021-07-21T18:17:48.573669Z\", \"created_time\": \"2021-07-21T18:16:14.972667Z\", \"created_time_dt\": \"2021-07-21T18:16:14.972667Z\", \"duration\": \"0:01:33\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 10, \"param_--n_estimators\": 50, \"best_metric\": 0.75190165}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_0\", \"run_number\": 420, \"metric\": 0.75030957, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:17:59.544125Z\", \"end_time\": \"2021-07-21T18:18:34.5395Z\", \"created_time\": \"2021-07-21T18:16:15.026131Z\", \"created_time_dt\": \"2021-07-21T18:16:15.026131Z\", \"duration\": \"0:02:19\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 5, \"param_--n_estimators\": 10, \"best_metric\": 0.75190165}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_3\", \"run_number\": 421, \"metric\": 0.75243234, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:16:23.721702Z\", \"end_time\": \"2021-07-21T18:17:02.52329Z\", \"created_time\": \"2021-07-21T18:16:15.0708Z\", \"created_time_dt\": \"2021-07-21T18:16:15.0708Z\", \"duration\": \"0:00:47\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 10, \"param_--n_estimators\": 10, \"best_metric\": 0.75243234}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_2\", \"run_number\": 422, \"metric\": 0.75004422, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:16:23.701976Z\", \"end_time\": \"2021-07-21T18:16:57.167911Z\", \"created_time\": \"2021-07-21T18:16:15.075053Z\", \"created_time_dt\": \"2021-07-21T18:16:15.075053Z\", \"duration\": \"0:00:42\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 7, \"param_--n_estimators\": 30, \"best_metric\": 0.75243234}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_1\", \"run_number\": 423, \"metric\": 0.74783301, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:17:19.79894Z\", \"end_time\": \"2021-07-21T18:17:55.78842Z\", \"created_time\": \"2021-07-21T18:16:15.09037Z\", \"created_time_dt\": \"2021-07-21T18:16:15.09037Z\", \"duration\": \"0:01:40\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 7, \"param_--n_estimators\": 70, \"best_metric\": 0.75243234}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_5\", \"run_number\": 424, \"metric\": 0.74907129, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:17:05.257268Z\", \"end_time\": \"2021-07-21T18:17:45.218181Z\", \"created_time\": \"2021-07-21T18:16:15.169015Z\", \"created_time_dt\": \"2021-07-21T18:16:15.169015Z\", \"duration\": \"0:01:30\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 10, \"param_--n_estimators\": 30, \"best_metric\": 0.75243234}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_6\", \"run_number\": 425, \"metric\": 0.75278613, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:18:03.676047Z\", \"end_time\": \"2021-07-21T18:18:43.090178Z\", \"created_time\": \"2021-07-21T18:17:16.511827Z\", \"created_time_dt\": \"2021-07-21T18:17:16.511827Z\", \"duration\": \"0:01:26\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 9, \"param_--n_estimators\": 50, \"best_metric\": 0.75278613}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_7\", \"run_number\": 426, \"metric\": 0.75367062, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:18:12.322353Z\", \"end_time\": \"2021-07-21T18:18:50.082855Z\", \"created_time\": \"2021-07-21T18:17:16.835483Z\", \"created_time_dt\": \"2021-07-21T18:17:16.835483Z\", \"duration\": \"0:01:33\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 5, \"param_--n_estimators\": 90, \"best_metric\": 0.75367062}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_10\", \"run_number\": 427, \"metric\": 0.75340527, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:18:58.682648Z\", \"end_time\": \"2021-07-21T18:19:30.112072Z\", \"created_time\": \"2021-07-21T18:18:18.730202Z\", \"created_time_dt\": \"2021-07-21T18:18:18.730202Z\", \"duration\": \"0:01:11\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 9, \"param_--n_estimators\": 90, \"best_metric\": 0.75367062}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_8\", \"run_number\": 428, \"metric\": 0.75092871, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:18:48.429947Z\", \"end_time\": \"2021-07-21T18:19:26.87323Z\", \"created_time\": \"2021-07-21T18:18:18.817723Z\", \"created_time_dt\": \"2021-07-21T18:18:18.817723Z\", \"duration\": \"0:01:08\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 5, \"param_--n_estimators\": 50, \"best_metric\": 0.75367062}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9\", \"run_number\": 429, \"metric\": 0.75756236, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:19:04.081101Z\", \"end_time\": \"2021-07-21T18:19:42.967977Z\", \"created_time\": \"2021-07-21T18:18:19.107646Z\", \"created_time_dt\": \"2021-07-21T18:18:19.107646Z\", \"duration\": \"0:01:23\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 9, \"param_--n_estimators\": 70, \"best_metric\": 0.75756236}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_11\", \"run_number\": 430, \"metric\": 0.7483637, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:19:40.256489Z\", \"end_time\": \"2021-07-21T18:20:16.867945Z\", \"created_time\": \"2021-07-21T18:18:50.345532Z\", \"created_time_dt\": \"2021-07-21T18:18:50.345532Z\", \"duration\": \"0:01:26\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 9, \"param_--n_estimators\": 10, \"best_metric\": 0.75756236}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_12\", \"run_number\": 431, \"metric\": 0.75030957, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:19:47.042902Z\", \"end_time\": \"2021-07-21T18:20:21.421834Z\", \"created_time\": \"2021-07-21T18:18:51.287294Z\", \"created_time_dt\": \"2021-07-21T18:18:51.287294Z\", \"duration\": \"0:01:30\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 10, \"param_--n_estimators\": 90, \"best_metric\": 0.75756236}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_13\", \"run_number\": 432, \"metric\": 0.75092871, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:19:59.069767Z\", \"end_time\": \"2021-07-21T18:20:29.933847Z\", \"created_time\": \"2021-07-21T18:19:22.144215Z\", \"created_time_dt\": \"2021-07-21T18:19:22.144215Z\", \"duration\": \"0:01:07\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 10, \"param_--n_estimators\": 70, \"best_metric\": 0.75756236}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_15\", \"run_number\": 433, \"metric\": 0.75296303, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:20:37.514598Z\", \"end_time\": \"2021-07-21T18:21:16.230964Z\", \"created_time\": \"2021-07-21T18:19:53.067768Z\", \"created_time_dt\": \"2021-07-21T18:19:53.067768Z\", \"duration\": \"0:01:23\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 7, \"param_--n_estimators\": 50, \"best_metric\": 0.75756236}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_16\", \"run_number\": 434, \"metric\": 0.75340527, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:20:32.320456Z\", \"end_time\": \"2021-07-21T18:21:06.747361Z\", \"created_time\": \"2021-07-21T18:19:53.077129Z\", \"created_time_dt\": \"2021-07-21T18:19:53.077129Z\", \"duration\": \"0:01:13\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 7, \"param_--n_estimators\": 10, \"best_metric\": 0.75756236}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_14\", \"run_number\": 435, \"metric\": 0.7514594, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:20:48.684479Z\", \"end_time\": \"2021-07-21T18:21:26.443881Z\", \"created_time\": \"2021-07-21T18:19:53.132451Z\", \"created_time_dt\": \"2021-07-21T18:19:53.132451Z\", \"duration\": \"0:01:33\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 9, \"param_--n_estimators\": 30, \"best_metric\": 0.75756236}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_18\", \"run_number\": 436, \"metric\": 0.75703166, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:21:24.118483Z\", \"end_time\": \"2021-07-21T18:21:53.612055Z\", \"created_time\": \"2021-07-21T18:20:54.4708Z\", \"created_time_dt\": \"2021-07-21T18:20:54.4708Z\", \"duration\": \"0:00:59\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 7, \"param_--n_estimators\": 90, \"best_metric\": 0.75756236}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_19\", \"run_number\": 437, \"metric\": 0.7481868, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:21:29.349651Z\", \"end_time\": \"2021-07-21T18:22:05.782405Z\", \"created_time\": \"2021-07-21T18:20:54.500423Z\", \"created_time_dt\": \"2021-07-21T18:20:54.500423Z\", \"duration\": \"0:01:11\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 5, \"param_--n_estimators\": 70, \"best_metric\": 0.75756236}, {\"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_17\", \"run_number\": 438, \"metric\": 0.74862905, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-21T18:21:42.756018Z\", \"end_time\": \"2021-07-21T18:22:18.959192Z\", \"created_time\": \"2021-07-21T18:20:54.832228Z\", \"created_time_dt\": \"2021-07-21T18:20:54.832228Z\", \"duration\": \"0:01:24\", \"hyperdrive_id\": \"414d1634-fa02-4c03-a50d-39f4cff4733c\", \"arguments\": null, \"param_--max_depth\": 5, \"param_--n_estimators\": 30, \"best_metric\": 0.75756236}], \"children_metrics\": {\"categories\": [0], \"series\": {\"Number of Estimators:\": [{\"categories\": [419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438], \"mode\": \"markers\", \"name\": \"Number of Estimators:\", \"stepped\": false, \"type\": \"scatter\", \"data\": [50.0, 10.0, 10.0, 30.0, 70.0, 30.0, 50.0, 90.0, 90.0, 50.0, 70.0, 10.0, 90.0, 70.0, 50.0, 10.0, 30.0, 90.0, 70.0, 30.0]}, {\"categories\": [419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438], \"mode\": \"lines\", \"name\": \"Number of Estimators:_max\", \"stepped\": true, \"type\": \"scatter\", \"data\": [50.0, 50.0, 50.0, 50.0, 70.0, 70.0, 70.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0]}], \"Max iterations:\": [{\"categories\": [419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438], \"mode\": \"markers\", \"name\": \"Max iterations:\", \"stepped\": false, \"type\": \"scatter\", \"data\": [10, 5, 10, 7, 7, 10, 9, 5, 9, 5, 9, 9, 10, 10, 7, 7, 9, 7, 5, 5]}, {\"categories\": [419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438], \"mode\": \"lines\", \"name\": \"Max iterations:_max\", \"stepped\": true, \"type\": \"scatter\", \"data\": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]}], \"Accuracy\": [{\"categories\": [419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438], \"mode\": \"markers\", \"name\": \"Accuracy\", \"stepped\": false, \"type\": \"scatter\", \"data\": [0.7519016451441712, 0.7503095701397489, 0.752432336812312, 0.7500442243056784, 0.7478330090217583, 0.7490712895807535, 0.7527861312577393, 0.7536706173713072, 0.7534052715372369, 0.7509287104192465, 0.7575623562710065, 0.7483637006898992, 0.7503095701397489, 0.7509287104192465, 0.7529630284804528, 0.7534052715372369, 0.7514594020873873, 0.7570316646028658, 0.7481868034671856, 0.7486290465239696]}, {\"categories\": [419, 420, 421, 422, 423, 424, 425, 426, 427, 428, 429, 430, 431, 432, 433, 434, 435, 436, 437, 438], \"mode\": \"lines\", \"name\": \"Accuracy_max\", \"stepped\": true, \"type\": \"scatter\", \"data\": [0.7519016451441712, 0.7519016451441712, 0.752432336812312, 0.752432336812312, 0.752432336812312, 0.752432336812312, 0.7527861312577393, 0.7536706173713072, 0.7536706173713072, 0.7536706173713072, 0.7575623562710065, 0.7575623562710065, 0.7575623562710065, 0.7575623562710065, 0.7575623562710065, 0.7575623562710065, 0.7575623562710065, 0.7575623562710065, 0.7575623562710065, 0.7575623562710065]}]}, \"metricName\": null, \"primaryMetricName\": \"Accuracy\", \"showLegend\": false}, \"run_metrics\": [{\"name\": \"best_child_by_primary_metric\", \"run_id\": \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c\", \"categories\": [0], \"series\": [{\"data\": [{\"metric_name\": [\"Accuracy\", \"Accuracy\", \"Accuracy\", \"Accuracy\", \"Accuracy\"], \"timestamp\": [\"2021-07-21 18:17:13.721375+00:00\", \"2021-07-21 18:17:44.796185+00:00\", \"2021-07-21 18:18:45.693336+00:00\", \"2021-07-21 18:19:46.755869+00:00\", \"2021-07-21 18:19:46.755869+00:00\"], \"run_id\": [\"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_2\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_3\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_7\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9\", \"HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9\"], \"metric_value\": [0.7500442243056784, 0.752432336812312, 0.7536706173713072, 0.7575623562710065, 0.7575623562710065], \"final\": [false, false, false, false, true]}]}]}], \"run_logs\": \"[2021-07-21T18:15:43.949360][API][INFO]Experiment created\\r\\n[2021-07-21T18:15:44.898704][GENERATOR][INFO]Trying to sample '6' jobs from the hyperparameter space\\r\\n[2021-07-21T18:15:45.093507][GENERATOR][INFO]Successfully sampled '6' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-21T18:16:14.3839127Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_0'\\r\\n[2021-07-21T18:16:14.3868318Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_2'\\r\\n[2021-07-21T18:16:14.3850858Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_1'\\r\\n[2021-07-21T18:16:14.4223783Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_5'\\r\\n[2021-07-21T18:16:14.4113915Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_4'\\r\\n[2021-07-21T18:16:14.4006763Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_3'\\r\\n[2021-07-21T18:16:15.0698604Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_4'\\r\\n[2021-07-21T18:16:15.1435961Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_0'\\r\\n[2021-07-21T18:16:15.1813299Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_3'\\r\\n[2021-07-21T18:16:15.1925504Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_1'\\r\\n[2021-07-21T18:16:15.1848217Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_2'\\r\\n[2021-07-21T18:16:15.2974614Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_5'\\r\\n[2021-07-21T18:16:43.623872][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_2, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_3] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:17:13.702008][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_5] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:17:14.693820][GENERATOR][INFO]Trying to sample '2' jobs from the hyperparameter space\\r\\n[2021-07-21T18:17:14.906839][GENERATOR][INFO]Successfully sampled '2' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-21T18:17:15.8277323Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_6'\\r\\n[2021-07-21T18:17:15.8289554Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_7'\\r\\n[2021-07-21T18:17:16.6270051Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_6'\\r\\n[2021-07-21T18:17:16.9560515Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_7'\\r\\n[2021-07-21T18:17:43.611774][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_1, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_4, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_5] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:18:13.692962][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_0, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_6, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_7] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:18:14.738793][GENERATOR][INFO]Trying to sample '3' jobs from the hyperparameter space\\r\\n[2021-07-21T18:18:14.932079][GENERATOR][INFO]Successfully sampled '3' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-21T18:18:17.7101599Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_8'\\r\\n[2021-07-21T18:18:17.7224483Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9'\\r\\n[2021-07-21T18:18:17.7479890Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_10'\\r\\n[2021-07-21T18:18:18.8554298Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_10'\\r\\n[2021-07-21T18:18:18.9177458Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_8'\\r\\n[2021-07-21T18:18:19.2396075Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9'\\r\\n[2021-07-21T18:18:43.723160][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_7] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:18:44.566584][GENERATOR][INFO]Trying to sample '2' jobs from the hyperparameter space\\r\\n[2021-07-21T18:18:44.714748][GENERATOR][INFO]Successfully sampled '2' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-21T18:18:49.5869162Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_11'\\r\\n[2021-07-21T18:18:49.5886482Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_12'\\r\\n[2021-07-21T18:18:50.4744229Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_11'\\r\\n[2021-07-21T18:18:51.3950161Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_12'\\r\\n[2021-07-21T18:19:13.716221][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_8, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_10] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:19:14.660285][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space\\r\\n[2021-07-21T18:19:14.833745][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-21T18:19:21.6543299Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_13'\\r\\n[2021-07-21T18:19:22.2607953Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_13'\\r\\n[2021-07-21T18:19:43.645533][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_11] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:19:44.724195][GENERATOR][INFO]Trying to sample '3' jobs from the hyperparameter space\\r\\n[2021-07-21T18:19:44.895328][GENERATOR][INFO]Successfully sampled '3' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-21T18:19:52.5248297Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_16'\\r\\n[2021-07-21T18:19:52.5254225Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_15'\\r\\n[2021-07-21T18:19:52.5369980Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_14'\\r\\n[2021-07-21T18:19:53.1618648Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_15'\\r\\n[2021-07-21T18:19:53.2033827Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_16'\\r\\n[2021-07-21T18:19:53.2386605Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_14'\\r\\n[2021-07-21T18:20:13.791044][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_11, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_12, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_13] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:20:43.729495][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_15, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_16] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:20:45.586432][GENERATOR][INFO]Trying to sample '3' jobs from the hyperparameter space\\r\\n[2021-07-21T18:20:45.780471][GENERATOR][INFO]Successfully sampled '3' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-21T18:20:53.7205561Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_17'\\r\\n[2021-07-21T18:20:53.7232575Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_19'\\r\\n[2021-07-21T18:20:53.7218877Z][SCHEDULER][INFO]Scheduling job, id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_18'\\r\\n[2021-07-21T18:20:54.5993972Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_18'\\r\\n[2021-07-21T18:20:54.6162668Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_19'\\r\\n[2021-07-21T18:20:54.9445211Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_414d1634-fa02-4c03-a50d-39f4cff4733c_17'\\r\\n[2021-07-21T18:21:13.800052][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_14, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_15] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:21:15.654377][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space\\r\\n[2021-07-21T18:21:15.673727][GENERATOR][WARNING]Could not sample any more jobs from the space.\\r\\n[2021-07-21T18:21:43.710656][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_17, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_18, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_19] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:22:13.683539][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_17] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-21T18:22:50.896404][CONTROLLER][INFO]Experiment was 'ExperimentStatus.RUNNING', is 'ExperimentStatus.FINISHED'.\\n\\nRun is completed.\", \"graph\": {}, \"widget_settings\": {\"childWidgetDisplay\": \"popup\", \"send_telemetry\": false, \"log_level\": \"INFO\", \"sdk_version\": \"1.31.0\"}, \"loading\": false}"
+            "application/aml.mini.widget.v1": "{\"status\": \"Completed\", \"workbench_run_details_uri\": \"https://ml.azure.com/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958?wsid=/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourcegroups/udacitycapstone/workspaces/udacityws&tid=60e63508-9cfd-4013-9a1f-7610707b07ce\", \"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"run_properties\": {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"created_utc\": \"2021-07-23T05:39:18.041141Z\", \"properties\": {\"primary_metric_config\": \"{\\\"name\\\": \\\"Accuracy\\\", \\\"goal\\\": \\\"maximize\\\"}\", \"resume_from\": \"null\", \"runTemplate\": \"HyperDrive\", \"azureml.runsource\": \"hyperdrive\", \"platform\": \"AML\", \"ContentSnapshotId\": \"3eaa0ff2-5441-4ee9-b422-1e7e8500b802\", \"score\": \"0.7566778701574385\", \"best_child_run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1\", \"best_metric_status\": \"Succeeded\"}, \"tags\": {\"_aml_system_max_concurrent_jobs\": \"6\", \"max_concurrent_jobs\": \"6\", \"_aml_system_max_total_jobs\": \"100\", \"max_total_jobs\": \"100\", \"_aml_system_max_duration_minutes\": \"10080\", \"max_duration_minutes\": \"10080\", \"_aml_system_policy_config\": \"{\\\"name\\\": \\\"BANDIT\\\", \\\"properties\\\": {\\\"evaluation_interval\\\": 2, \\\"delay_evaluation\\\": 0, \\\"slack_factor\\\": 0.1}}\", \"policy_config\": \"{\\\"name\\\": \\\"BANDIT\\\", \\\"properties\\\": {\\\"evaluation_interval\\\": 2, \\\"delay_evaluation\\\": 0, \\\"slack_factor\\\": 0.1}}\", \"_aml_system_generator_config\": \"{\\\"name\\\": \\\"RANDOM\\\", \\\"parameter_space\\\": {\\\"--n_estimators\\\": [\\\"choice\\\", [[10, 30, 50, 70, 90]]], \\\"--max_depth\\\": [\\\"choice\\\", [[5, 7, 9, 10]]]}}\", \"generator_config\": \"{\\\"name\\\": \\\"RANDOM\\\", \\\"parameter_space\\\": {\\\"--n_estimators\\\": [\\\"choice\\\", [[10, 30, 50, 70, 90]]], \\\"--max_depth\\\": [\\\"choice\\\", [[5, 7, 9, 10]]]}}\", \"_aml_system_primary_metric_config\": \"{\\\"name\\\": \\\"Accuracy\\\", \\\"goal\\\": \\\"maximize\\\"}\", \"primary_metric_config\": \"{\\\"name\\\": \\\"Accuracy\\\", \\\"goal\\\": \\\"maximize\\\"}\", \"_aml_system_platform_config\": \"{\\\"ServiceAddress\\\": \\\"https://japaneast.experiments.azureml.net\\\", \\\"ServiceArmScope\\\": \\\"subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/capstone-hyperdrive\\\", \\\"SubscriptionId\\\": \\\"653662f1-95de-4498-b876-1fd625bf5d18\\\", \\\"ResourceGroupName\\\": \\\"udacitycapstone\\\", \\\"WorkspaceName\\\": \\\"udacityws\\\", \\\"ExperimentName\\\": \\\"capstone-hyperdrive\\\", \\\"Definition\\\": {\\\"Overrides\\\": {\\\"script\\\": \\\"train.py\\\", \\\"arguments\\\": [], \\\"target\\\": \\\"cpu-cluster\\\", \\\"framework\\\": \\\"Python\\\", \\\"communicator\\\": \\\"None\\\", \\\"maxRunDurationSeconds\\\": null, \\\"nodeCount\\\": 1, \\\"priority\\\": null, \\\"environment\\\": {\\\"name\\\": null, \\\"version\\\": null, \\\"environmentVariables\\\": {\\\"EXAMPLE_ENV_VAR\\\": \\\"EXAMPLE_VALUE\\\"}, \\\"python\\\": {\\\"userManagedDependencies\\\": true, \\\"interpreterPath\\\": \\\"python\\\", \\\"condaDependenciesFile\\\": null, \\\"baseCondaEnvironment\\\": null, \\\"condaDependencies\\\": {\\\"name\\\": \\\"project_environment\\\", \\\"dependencies\\\": [\\\"python=3.6.2\\\", {\\\"pip\\\": [\\\"azureml-defaults\\\"]}], \\\"channels\\\": [\\\"anaconda\\\", \\\"conda-forge\\\"]}}, \\\"docker\\\": {\\\"enabled\\\": true, \\\"baseImage\\\": \\\"sklearn:0.20.3-cpu\\\", \\\"baseDockerfile\\\": null, \\\"sharedVolumes\\\": true, \\\"shmSize\\\": \\\"2g\\\", \\\"arguments\\\": [], \\\"baseImageRegistry\\\": {\\\"address\\\": \\\"viennaprivate.azurecr.io\\\", \\\"username\\\": null, \\\"password\\\": null, \\\"registryIdentity\\\": null}, \\\"platform\\\": {\\\"os\\\": \\\"Linux\\\", \\\"architecture\\\": \\\"amd64\\\"}}, \\\"spark\\\": {\\\"repositories\\\": [], \\\"packages\\\": [], \\\"precachePackages\\\": false}, \\\"databricks\\\": {\\\"mavenLibraries\\\": [], \\\"pypiLibraries\\\": [], \\\"rcranLibraries\\\": [], \\\"jarLibraries\\\": [], \\\"eggLibraries\\\": []}, \\\"r\\\": null, \\\"inferencingStackVersion\\\": null}, \\\"history\\\": {\\\"outputCollection\\\": true, \\\"snapshotProject\\\": true, \\\"directoriesToWatch\\\": [\\\"logs\\\"]}, \\\"spark\\\": {\\\"configuration\\\": {\\\"spark.app.name\\\": \\\"Azure ML Experiment\\\", \\\"spark.yarn.maxAppAttempts\\\": 1}}, \\\"docker\\\": {\\\"useDocker\\\": false, \\\"sharedVolumes\\\": true, \\\"arguments\\\": [], \\\"shmSize\\\": \\\"2g\\\"}, \\\"hdi\\\": {\\\"yarnDeployMode\\\": \\\"cluster\\\"}, \\\"tensorflow\\\": {\\\"workerCount\\\": 1, \\\"parameterServerCount\\\": 1}, \\\"mpi\\\": {\\\"processCountPerNode\\\": 1, \\\"nodeCount\\\": 1}, \\\"pytorch\\\": {\\\"communicationBackend\\\": \\\"nccl\\\", \\\"processCount\\\": null, \\\"nodeCount\\\": 1}, \\\"paralleltask\\\": {\\\"maxRetriesPerWorker\\\": 0, \\\"workerCountPerNode\\\": 1, \\\"terminalExitCodes\\\": null}, \\\"dataReferences\\\": {}, \\\"data\\\": {}, \\\"outputData\\\": {}, \\\"sourceDirectoryDataStore\\\": null, \\\"amlcompute\\\": {\\\"vmSize\\\": null, \\\"vmPriority\\\": null, \\\"retainCluster\\\": false, \\\"name\\\": null, \\\"clusterMaxNodeCount\\\": 1}, \\\"credentialPassthrough\\\": false, \\\"command\\\": \\\"\\\"}, \\\"TargetDetails\\\": null, \\\"SnapshotId\\\": \\\"3eaa0ff2-5441-4ee9-b422-1e7e8500b802\\\", \\\"TelemetryValues\\\": {\\\"amlClientType\\\": \\\"azureml-sdk-train\\\", \\\"amlClientModule\\\": \\\"[Scrubbed]\\\", \\\"amlClientFunction\\\": \\\"[Scrubbed]\\\", \\\"tenantId\\\": \\\"60e63508-9cfd-4013-9a1f-7610707b07ce\\\", \\\"amlClientRequestId\\\": \\\"600f4cbc-4cc0-48bc-9b6e-f80297d9957d\\\", \\\"amlClientSessionId\\\": \\\"8908a0e1-2569-4e8c-a9b1-74b238e99c6b\\\", \\\"subscriptionId\\\": \\\"653662f1-95de-4498-b876-1fd625bf5d18\\\", \\\"estimator\\\": \\\"SKLearn\\\", \\\"samplingMethod\\\": \\\"RANDOM\\\", \\\"terminationPolicy\\\": \\\"Bandit\\\", \\\"primaryMetricGoal\\\": \\\"maximize\\\", \\\"maxTotalRuns\\\": 100, \\\"maxConcurrentRuns\\\": 6, \\\"maxDurationMinutes\\\": 10080, \\\"vmSize\\\": null}}}\", \"platform_config\": \"{\\\"ServiceAddress\\\": \\\"https://japaneast.experiments.azureml.net\\\", \\\"ServiceArmScope\\\": \\\"subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/capstone-hyperdrive\\\", \\\"SubscriptionId\\\": \\\"653662f1-95de-4498-b876-1fd625bf5d18\\\", \\\"ResourceGroupName\\\": \\\"udacitycapstone\\\", \\\"WorkspaceName\\\": \\\"udacityws\\\", \\\"ExperimentName\\\": \\\"capstone-hyperdrive\\\", \\\"Definition\\\": {\\\"Overrides\\\": {\\\"script\\\": \\\"train.py\\\", \\\"arguments\\\": [], \\\"target\\\": \\\"cpu-cluster\\\", \\\"framework\\\": \\\"Python\\\", \\\"communicator\\\": \\\"None\\\", \\\"maxRunDurationSeconds\\\": null, \\\"nodeCount\\\": 1, \\\"priority\\\": null, \\\"environment\\\": {\\\"name\\\": null, \\\"version\\\": null, \\\"environmentVariables\\\": {\\\"EXAMPLE_ENV_VAR\\\": \\\"EXAMPLE_VALUE\\\"}, \\\"python\\\": {\\\"userManagedDependencies\\\": true, \\\"interpreterPath\\\": \\\"python\\\", \\\"condaDependenciesFile\\\": null, \\\"baseCondaEnvironment\\\": null, \\\"condaDependencies\\\": {\\\"name\\\": \\\"project_environment\\\", \\\"dependencies\\\": [\\\"python=3.6.2\\\", {\\\"pip\\\": [\\\"azureml-defaults\\\"]}], \\\"channels\\\": [\\\"anaconda\\\", \\\"conda-forge\\\"]}}, \\\"docker\\\": {\\\"enabled\\\": true, \\\"baseImage\\\": \\\"sklearn:0.20.3-cpu\\\", \\\"baseDockerfile\\\": null, \\\"sharedVolumes\\\": true, \\\"shmSize\\\": \\\"2g\\\", \\\"arguments\\\": [], \\\"baseImageRegistry\\\": {\\\"address\\\": \\\"viennaprivate.azurecr.io\\\", \\\"username\\\": null, \\\"password\\\": null, \\\"registryIdentity\\\": null}, \\\"platform\\\": {\\\"os\\\": \\\"Linux\\\", \\\"architecture\\\": \\\"amd64\\\"}}, \\\"spark\\\": {\\\"repositories\\\": [], \\\"packages\\\": [], \\\"precachePackages\\\": false}, \\\"databricks\\\": {\\\"mavenLibraries\\\": [], \\\"pypiLibraries\\\": [], \\\"rcranLibraries\\\": [], \\\"jarLibraries\\\": [], \\\"eggLibraries\\\": []}, \\\"r\\\": null, \\\"inferencingStackVersion\\\": null}, \\\"history\\\": {\\\"outputCollection\\\": true, \\\"snapshotProject\\\": true, \\\"directoriesToWatch\\\": [\\\"logs\\\"]}, \\\"spark\\\": {\\\"configuration\\\": {\\\"spark.app.name\\\": \\\"Azure ML Experiment\\\", \\\"spark.yarn.maxAppAttempts\\\": 1}}, \\\"docker\\\": {\\\"useDocker\\\": false, \\\"sharedVolumes\\\": true, \\\"arguments\\\": [], \\\"shmSize\\\": \\\"2g\\\"}, \\\"hdi\\\": {\\\"yarnDeployMode\\\": \\\"cluster\\\"}, \\\"tensorflow\\\": {\\\"workerCount\\\": 1, \\\"parameterServerCount\\\": 1}, \\\"mpi\\\": {\\\"processCountPerNode\\\": 1, \\\"nodeCount\\\": 1}, \\\"pytorch\\\": {\\\"communicationBackend\\\": \\\"nccl\\\", \\\"processCount\\\": null, \\\"nodeCount\\\": 1}, \\\"paralleltask\\\": {\\\"maxRetriesPerWorker\\\": 0, \\\"workerCountPerNode\\\": 1, \\\"terminalExitCodes\\\": null}, \\\"dataReferences\\\": {}, \\\"data\\\": {}, \\\"outputData\\\": {}, \\\"sourceDirectoryDataStore\\\": null, \\\"amlcompute\\\": {\\\"vmSize\\\": null, \\\"vmPriority\\\": null, \\\"retainCluster\\\": false, \\\"name\\\": null, \\\"clusterMaxNodeCount\\\": 1}, \\\"credentialPassthrough\\\": false, \\\"command\\\": \\\"\\\"}, \\\"TargetDetails\\\": null, \\\"SnapshotId\\\": \\\"3eaa0ff2-5441-4ee9-b422-1e7e8500b802\\\", \\\"TelemetryValues\\\": {\\\"amlClientType\\\": \\\"azureml-sdk-train\\\", \\\"amlClientModule\\\": \\\"[Scrubbed]\\\", \\\"amlClientFunction\\\": \\\"[Scrubbed]\\\", \\\"tenantId\\\": \\\"60e63508-9cfd-4013-9a1f-7610707b07ce\\\", \\\"amlClientRequestId\\\": \\\"600f4cbc-4cc0-48bc-9b6e-f80297d9957d\\\", \\\"amlClientSessionId\\\": \\\"8908a0e1-2569-4e8c-a9b1-74b238e99c6b\\\", \\\"subscriptionId\\\": \\\"653662f1-95de-4498-b876-1fd625bf5d18\\\", \\\"estimator\\\": \\\"SKLearn\\\", \\\"samplingMethod\\\": \\\"RANDOM\\\", \\\"terminationPolicy\\\": \\\"Bandit\\\", \\\"primaryMetricGoal\\\": \\\"maximize\\\", \\\"maxTotalRuns\\\": 100, \\\"maxConcurrentRuns\\\": 6, \\\"maxDurationMinutes\\\": 10080, \\\"vmSize\\\": null}}}\", \"_aml_system_resume_child_runs\": \"null\", \"resume_child_runs\": \"null\", \"_aml_system_all_jobs_generated\": \"true\", \"all_jobs_generated\": \"true\", \"_aml_system_cancellation_requested\": \"false\", \"cancellation_requested\": \"false\", \"_aml_system_progress_metadata_evaluation_timestamp\": \"\\\"2021-07-23T05:39:19.025733\\\"\", \"progress_metadata_evaluation_timestamp\": \"\\\"2021-07-23T05:39:19.025733\\\"\", \"_aml_system_progress_metadata_digest\": \"\\\"39ba6d09ac9e4ea029fee28e5e60d87187c497f08842ed64730da479dbc20f90\\\"\", \"progress_metadata_digest\": \"\\\"39ba6d09ac9e4ea029fee28e5e60d87187c497f08842ed64730da479dbc20f90\\\"\", \"_aml_system_progress_metadata_active_timestamp\": \"\\\"2021-07-23T05:39:19.025733\\\"\", \"progress_metadata_active_timestamp\": \"\\\"2021-07-23T05:39:19.025733\\\"\", \"_aml_system_optimizer_state_artifact\": \"null\", \"_aml_system_outdated_optimizer_state_artifacts\": \"\\\"[]\\\"\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_0\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 30}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_0\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 30}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 90}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 90}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_2\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 10}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_2\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 10}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_3\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 70}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_3\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 70}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_4\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 30}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_4\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 30}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_5\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 10}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_5\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 10}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_6\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 90}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_6\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 90}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_7\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 50}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_7\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 50}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_8\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 70}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_8\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 70}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_9\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 90}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_9\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 90}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_10\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 70}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_10\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 70}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_11\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 30}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_11\": \"{\\\"--max_depth\\\": 5, \\\"--n_estimators\\\": 30}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_12\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 30}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_12\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 30}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_13\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 50}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_13\": \"{\\\"--max_depth\\\": 9, \\\"--n_estimators\\\": 50}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_14\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 10}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_14\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 10}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_15\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 10}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_15\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 10}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_16\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 90}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_16\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 90}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_17\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 50}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_17\": \"{\\\"--max_depth\\\": 7, \\\"--n_estimators\\\": 50}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_18\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 70}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_18\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 70}\", \"_aml_system_HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_19\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 50}\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_19\": \"{\\\"--max_depth\\\": 10, \\\"--n_estimators\\\": 50}\", \"_aml_system_final_best_metric_update_retry_count\": \"1\", \"final_best_metric_update_retry_count\": \"1\"}, \"end_time_utc\": \"2021-07-23T05:53:54.852617Z\", \"status\": \"Completed\", \"log_files\": {\"azureml-logs/hyperdrive.txt\": \"https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958/azureml-logs/hyperdrive.txt?sv=2019-02-02&sr=b&sig=Letd9CNxjGqz8%2BVG0NwUICaryAewZtDdY4uBgf8b%2BaE%3D&st=2021-07-23T05%3A43%3A57Z&se=2021-07-23T13%3A53%3A57Z&sp=r\"}, \"log_groups\": [[\"azureml-logs/hyperdrive.txt\"]], \"run_duration\": \"0:14:36\", \"run_number\": \"449\", \"run_queued_details\": {\"status\": \"Completed\", \"details\": null}, \"hyper_parameters\": {\"--n_estimators\": [\"choice\", [[10, 30, 50, 70, 90]]], \"--max_depth\": [\"choice\", [[5, 7, 9, 10]]]}}, \"child_runs\": [{\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_4\", \"run_number\": 450, \"metric\": 0.74924819, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:42:49.658057Z\", \"end_time\": \"2021-07-23T05:43:30.353186Z\", \"created_time\": \"2021-07-23T05:39:49.796506Z\", \"created_time_dt\": \"2021-07-23T05:39:49.796506Z\", \"duration\": \"0:03:40\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 9, \"param_--n_estimators\": 30, \"best_metric\": 0.74924819}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_2\", \"run_number\": 451, \"metric\": 0.75252079, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:43:47.519938Z\", \"end_time\": \"2021-07-23T05:44:29.477809Z\", \"created_time\": \"2021-07-23T05:39:49.806697Z\", \"created_time_dt\": \"2021-07-23T05:39:49.806697Z\", \"duration\": \"0:04:39\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 5, \"param_--n_estimators\": 10, \"best_metric\": 0.75252079}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1\", \"run_number\": 452, \"metric\": 0.75667787, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:42:49.606915Z\", \"end_time\": \"2021-07-23T05:43:30.273361Z\", \"created_time\": \"2021-07-23T05:39:49.826492Z\", \"created_time_dt\": \"2021-07-23T05:39:49.826492Z\", \"duration\": \"0:03:40\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 5, \"param_--n_estimators\": 90, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_5\", \"run_number\": 453, \"metric\": 0.75030957, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:43:52.949496Z\", \"end_time\": \"2021-07-23T05:44:35.511657Z\", \"created_time\": \"2021-07-23T05:39:49.882147Z\", \"created_time_dt\": \"2021-07-23T05:39:49.882147Z\", \"duration\": \"0:04:45\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 9, \"param_--n_estimators\": 10, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_3\", \"run_number\": 454, \"metric\": 0.74809835, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:42:59.254912Z\", \"end_time\": \"2021-07-23T05:43:41.228094Z\", \"created_time\": \"2021-07-23T05:39:49.942006Z\", \"created_time_dt\": \"2021-07-23T05:39:49.942006Z\", \"duration\": \"0:03:51\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 5, \"param_--n_estimators\": 70, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_0\", \"run_number\": 455, \"metric\": 0.75597028, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:43:45.976201Z\", \"end_time\": \"2021-07-23T05:44:21.425494Z\", \"created_time\": \"2021-07-23T05:39:50.485571Z\", \"created_time_dt\": \"2021-07-23T05:39:50.485571Z\", \"duration\": \"0:04:30\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 7, \"param_--n_estimators\": 30, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_8\", \"run_number\": 462, \"metric\": 0.74995578, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:46:23.990949Z\", \"end_time\": \"2021-07-23T05:47:05.859137Z\", \"created_time\": \"2021-07-23T05:43:53.006742Z\", \"created_time_dt\": \"2021-07-23T05:43:53.006742Z\", \"duration\": \"0:03:12\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 7, \"param_--n_estimators\": 70, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_6\", \"run_number\": 463, \"metric\": 0.7545551, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:46:33.526629Z\", \"end_time\": \"2021-07-23T05:47:32.53584Z\", \"created_time\": \"2021-07-23T05:43:53.097926Z\", \"created_time_dt\": \"2021-07-23T05:43:53.097926Z\", \"duration\": \"0:03:39\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 10, \"param_--n_estimators\": 90, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_7\", \"run_number\": 464, \"metric\": 0.74827525, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:46:38.132454Z\", \"end_time\": \"2021-07-23T05:47:22.014173Z\", \"created_time\": \"2021-07-23T05:43:53.721316Z\", \"created_time_dt\": \"2021-07-23T05:43:53.721316Z\", \"duration\": \"0:03:28\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 5, \"param_--n_estimators\": 50, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_11\", \"run_number\": 465, \"metric\": 0.75597028, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:47:22.423251Z\", \"end_time\": \"2021-07-23T05:48:03.787532Z\", \"created_time\": \"2021-07-23T05:44:54.926907Z\", \"created_time_dt\": \"2021-07-23T05:44:54.926907Z\", \"duration\": \"0:03:08\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 5, \"param_--n_estimators\": 30, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_9\", \"run_number\": 466, \"metric\": 0.75278613, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:47:35.906929Z\", \"end_time\": \"2021-07-23T05:48:09.09144Z\", \"created_time\": \"2021-07-23T05:44:55.086931Z\", \"created_time_dt\": \"2021-07-23T05:44:55.086931Z\", \"duration\": \"0:03:14\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 9, \"param_--n_estimators\": 90, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_10\", \"run_number\": 467, \"metric\": 0.74792146, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:47:44.887521Z\", \"end_time\": \"2021-07-23T05:48:29.486743Z\", \"created_time\": \"2021-07-23T05:44:55.512052Z\", \"created_time_dt\": \"2021-07-23T05:44:55.512052Z\", \"duration\": \"0:03:33\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 9, \"param_--n_estimators\": 70, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_12\", \"run_number\": 474, \"metric\": 0.75313993, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:50:09.219689Z\", \"end_time\": \"2021-07-23T05:50:47.454388Z\", \"created_time\": \"2021-07-23T05:47:28.196634Z\", \"created_time_dt\": \"2021-07-23T05:47:28.196634Z\", \"duration\": \"0:03:19\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 10, \"param_--n_estimators\": 30, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_13\", \"run_number\": 475, \"metric\": 0.74880594, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:50:17.887493Z\", \"end_time\": \"2021-07-23T05:50:57.930928Z\", \"created_time\": \"2021-07-23T05:47:59.261418Z\", \"created_time_dt\": \"2021-07-23T05:47:59.261418Z\", \"duration\": \"0:02:58\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 9, \"param_--n_estimators\": 50, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_14\", \"run_number\": 476, \"metric\": 0.75428976, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:50:39.473853Z\", \"end_time\": \"2021-07-23T05:51:22.614435Z\", \"created_time\": \"2021-07-23T05:47:59.688452Z\", \"created_time_dt\": \"2021-07-23T05:47:59.688452Z\", \"duration\": \"0:03:22\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 10, \"param_--n_estimators\": 10, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_16\", \"run_number\": 477, \"metric\": 0.75092871, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:51:06.165614Z\", \"end_time\": \"2021-07-23T05:51:48.690203Z\", \"created_time\": \"2021-07-23T05:48:30.692669Z\", \"created_time_dt\": \"2021-07-23T05:48:30.692669Z\", \"duration\": \"0:03:17\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 7, \"param_--n_estimators\": 90, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_15\", \"run_number\": 478, \"metric\": 0.75482045, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:51:16.391378Z\", \"end_time\": \"2021-07-23T05:51:55.36463Z\", \"created_time\": \"2021-07-23T05:48:30.711557Z\", \"created_time_dt\": \"2021-07-23T05:48:30.711557Z\", \"duration\": \"0:03:24\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 7, \"param_--n_estimators\": 10, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_17\", \"run_number\": 479, \"metric\": 0.74597559, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:51:35.025489Z\", \"end_time\": \"2021-07-23T05:52:17.058898Z\", \"created_time\": \"2021-07-23T05:49:01.744047Z\", \"created_time_dt\": \"2021-07-23T05:49:01.744047Z\", \"duration\": \"0:03:15\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 7, \"param_--n_estimators\": 50, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_18\", \"run_number\": 481, \"metric\": 0.74721387, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:52:11.956532Z\", \"end_time\": \"2021-07-23T05:52:48.57609Z\", \"created_time\": \"2021-07-23T05:51:03.800513Z\", \"created_time_dt\": \"2021-07-23T05:51:03.800513Z\", \"duration\": \"0:01:44\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 10, \"param_--n_estimators\": 70, \"best_metric\": 0.75667787}, {\"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_19\", \"run_number\": 482, \"metric\": 0.75190165, \"status\": \"Completed\", \"run_type\": \"azureml.scriptrun\", \"training_percent\": null, \"start_time\": \"2021-07-23T05:52:30.599937Z\", \"end_time\": \"2021-07-23T05:53:04.870924Z\", \"created_time\": \"2021-07-23T05:51:35.032489Z\", \"created_time_dt\": \"2021-07-23T05:51:35.032489Z\", \"duration\": \"0:01:29\", \"hyperdrive_id\": \"76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"arguments\": null, \"param_--max_depth\": 10, \"param_--n_estimators\": 50, \"best_metric\": 0.75667787}], \"children_metrics\": {\"categories\": [0], \"series\": {\"Number of Estimators:\": [{\"categories\": [450, 451, 452, 453, 454, 455, 462, 463, 464, 465, 466, 467, 474, 475, 476, 477, 478, 479, 481, 482], \"mode\": \"markers\", \"name\": \"Number of Estimators:\", \"stepped\": false, \"type\": \"scatter\", \"data\": [30.0, 10.0, 90.0, 10.0, 70.0, 30.0, 70.0, 90.0, 50.0, 30.0, 90.0, 70.0, 30.0, 50.0, 10.0, 90.0, 10.0, 50.0, 70.0, 50.0]}, {\"categories\": [450, 451, 452, 453, 454, 455, 462, 463, 464, 465, 466, 467, 474, 475, 476, 477, 478, 479, 481, 482], \"mode\": \"lines\", \"name\": \"Number of Estimators:_max\", \"stepped\": true, \"type\": \"scatter\", \"data\": [30.0, 30.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0, 90.0]}], \"Max iterations:\": [{\"categories\": [450, 451, 452, 453, 454, 455, 462, 463, 464, 465, 466, 467, 474, 475, 476, 477, 478, 479, 481, 482], \"mode\": \"markers\", \"name\": \"Max iterations:\", \"stepped\": false, \"type\": \"scatter\", \"data\": [9, 5, 5, 9, 5, 7, 7, 10, 5, 5, 9, 9, 10, 9, 10, 7, 7, 7, 10, 10]}, {\"categories\": [450, 451, 452, 453, 454, 455, 462, 463, 464, 465, 466, 467, 474, 475, 476, 477, 478, 479, 481, 482], \"mode\": \"lines\", \"name\": \"Max iterations:_max\", \"stepped\": true, \"type\": \"scatter\", \"data\": [9, 9, 9, 9, 9, 9, 9, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]}], \"Accuracy\": [{\"categories\": [450, 451, 452, 453, 454, 455, 462, 463, 464, 465, 466, 467, 474, 475, 476, 477, 478, 479, 481, 482], \"mode\": \"markers\", \"name\": \"Accuracy\", \"stepped\": false, \"type\": \"scatter\", \"data\": [0.7492481868034672, 0.7525207854236688, 0.7566778701574385, 0.7503095701397489, 0.7480983548558288, 0.7559702812665842, 0.7499557756943216, 0.7545551034848753, 0.7482752520785424, 0.7559702812665842, 0.7527861312577393, 0.7479214576331151, 0.7531399257031665, 0.7488059437466832, 0.7542897576508049, 0.7509287104192465, 0.7548204493189457, 0.7459755881832655, 0.7472138687422607, 0.7519016451441712]}, {\"categories\": [450, 451, 452, 453, 454, 455, 462, 463, 464, 465, 466, 467, 474, 475, 476, 477, 478, 479, 481, 482], \"mode\": \"lines\", \"name\": \"Accuracy_max\", \"stepped\": true, \"type\": \"scatter\", \"data\": [0.7492481868034672, 0.7525207854236688, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385, 0.7566778701574385]}]}, \"metricName\": null, \"primaryMetricName\": \"Accuracy\", \"showLegend\": false}, \"run_metrics\": [{\"name\": \"best_child_by_primary_metric\", \"run_id\": \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958\", \"categories\": [0], \"series\": [{\"data\": [{\"metric_name\": [\"Accuracy\", \"Accuracy\"], \"timestamp\": [\"2021-07-23 05:43:48.631513+00:00\", \"2021-07-23 05:43:48.631513+00:00\"], \"run_id\": [\"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1\", \"HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1\"], \"metric_value\": [0.7566778701574385, 0.7566778701574385], \"final\": [false, true]}]}]}], \"run_logs\": \"[2021-07-23T05:39:18.558575][API][INFO]Experiment created\\r\\n[2021-07-23T05:39:19.139413][GENERATOR][INFO]Trying to sample '6' jobs from the hyperparameter space\\r\\n[2021-07-23T05:39:19.359766][GENERATOR][INFO]Successfully sampled '6' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-23T05:39:48.8805669Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_0'\\r\\n[2021-07-23T05:39:49.0820285Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_2'\\r\\n[2021-07-23T05:39:48.9954871Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_4'\\r\\n[2021-07-23T05:39:49.1231317Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1'\\r\\n[2021-07-23T05:39:48.9218638Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_5'\\r\\n[2021-07-23T05:39:49.0421699Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_3'\\r\\n[2021-07-23T05:39:49.9185010Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_2'\\r\\n[2021-07-23T05:39:49.9198942Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_4'\\r\\n[2021-07-23T05:39:50.0002382Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1'\\r\\n[2021-07-23T05:39:50.0086503Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_5'\\r\\n[2021-07-23T05:39:50.0580981Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_3'\\r\\n[2021-07-23T05:39:50.6126509Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_0'\\r\\n[2021-07-23T05:43:18.749279][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_3, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_4] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:43:48.684364][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_0, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_2] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:43:48.737568][GENERATOR][INFO]Trying to sample '3' jobs from the hyperparameter space\\r\\n[2021-07-23T05:43:48.927715][GENERATOR][INFO]Successfully sampled '3' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-23T05:43:52.3342909Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_6'\\r\\n[2021-07-23T05:43:52.3355589Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_7'\\r\\n[2021-07-23T05:43:52.3375932Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_8'\\r\\n[2021-07-23T05:43:53.1058682Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_8'\\r\\n[2021-07-23T05:43:53.2100130Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_6'\\r\\n[2021-07-23T05:43:53.8437883Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_7'\\r\\n[2021-07-23T05:44:18.640816][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_0, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_2, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_5] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:44:48.713693][GENERATOR][INFO]Trying to sample '3' jobs from the hyperparameter space\\r\\n[2021-07-23T05:44:48.901765][GENERATOR][INFO]Successfully sampled '3' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-23T05:44:54.2258482Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_9'\\r\\n[2021-07-23T05:44:54.2270980Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_10'\\r\\n[2021-07-23T05:44:54.2700331Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_11'\\r\\n[2021-07-23T05:44:55.0386288Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_11'\\r\\n[2021-07-23T05:44:55.2047705Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_9'\\r\\n[2021-07-23T05:44:55.6219404Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_10'\\r\\n[2021-07-23T05:46:48.783296][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_6, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_7, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_8] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:47:18.655502][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space\\r\\n[2021-07-23T05:47:18.805198][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-23T05:47:18.815022][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_6, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_7] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:47:26.7913632Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_12'\\r\\n[2021-07-23T05:47:28.3104937Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_12'\\r\\n[2021-07-23T05:47:48.725973][GENERATOR][INFO]Trying to sample '2' jobs from the hyperparameter space\\r\\n[2021-07-23T05:47:48.744079][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_9, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_10, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_11] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:47:48.905860][GENERATOR][INFO]Successfully sampled '2' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-23T05:47:58.5282547Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_13'\\r\\n[2021-07-23T05:47:58.5593239Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_14'\\r\\n[2021-07-23T05:47:59.3718049Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_13'\\r\\n[2021-07-23T05:47:59.8310695Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_14'\\r\\n[2021-07-23T05:48:18.679316][GENERATOR][INFO]Trying to sample '2' jobs from the hyperparameter space\\r\\n[2021-07-23T05:48:18.739298][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_10] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:48:18.866787][GENERATOR][INFO]Successfully sampled '2' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-23T05:48:30.1084386Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_15'\\r\\n[2021-07-23T05:48:30.1077295Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_16'\\r\\n[2021-07-23T05:48:30.7887692Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_16'\\r\\n[2021-07-23T05:48:30.8356177Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_15'\\r\\n[2021-07-23T05:48:48.670190][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space\\r\\n[2021-07-23T05:48:48.956396][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-23T05:49:01.0464803Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_17'\\r\\n[2021-07-23T05:49:01.8724698Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_17'\\r\\n[2021-07-23T05:50:18.739097][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_12, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_13] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:50:48.706302][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space\\r\\n[2021-07-23T05:50:48.797251][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_13, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_14] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:50:48.898917][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-23T05:51:03.0258247Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_18'\\r\\n[2021-07-23T05:51:03.9182251Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_18'\\r\\n[2021-07-23T05:51:18.685601][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space\\r\\n[2021-07-23T05:51:18.875699][GENERATOR][INFO]Successfully sampled '1' jobs, they will soon be submitted to the execution target.\\r\\n[2021-07-23T05:51:18.829802][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_14, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_15, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_16] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:51:34.2487213Z][SCHEDULER][INFO]Scheduling job, id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_19'\\r\\n[2021-07-23T05:51:35.1527297Z][SCHEDULER][INFO]Successfully scheduled a job. Id='HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_19'\\r\\n[2021-07-23T05:51:48.635449][GENERATOR][WARNING]Could not sample any more jobs from the space.\\r\\n[2021-07-23T05:51:48.619934][GENERATOR][INFO]Trying to sample '1' jobs from the hyperparameter space\\r\\n[2021-07-23T05:51:48.759920][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_15, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_16, https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_17] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:52:18.767268][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_18] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:52:48.817326][ENFORCER][INFO]Jobs [https://japaneast.experiments.azureml.net/subscriptions/653662f1-95de-4498-b876-1fd625bf5d18/resourceGroups/udacitycapstone/providers/Microsoft.MachineLearningServices/workspaces/udacityws/experiments/**SCRUBBED**/runs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_19] do not contain any metrics with the primary metric name at this moment, policy cannot be applied.\\r\\n[2021-07-23T05:53:55.087074][CONTROLLER][INFO]Experiment was 'ExperimentStatus.RUNNING', is 'ExperimentStatus.FINISHED'.\\n\\nRun is completed.\", \"graph\": {}, \"widget_settings\": {\"childWidgetDisplay\": \"popup\", \"send_telemetry\": false, \"log_level\": \"INFO\", \"sdk_version\": \"1.31.0\"}, \"loading\": false}"
           },
           "metadata": {}
         },
@@ -292,32 +292,15 @@
           "output_type": "execute_result",
           "execution_count": 6,
           "data": {
-            "text/plain": "{'runId': 'HD_414d1634-fa02-4c03-a50d-39f4cff4733c',\n 'target': 'cpu-cluster',\n 'status': 'Completed',\n 'startTimeUtc': '2021-07-21T18:15:43.384303Z',\n 'endTimeUtc': '2021-07-21T18:22:50.672602Z',\n 'properties': {'primary_metric_config': '{\"name\": \"Accuracy\", \"goal\": \"maximize\"}',\n  'resume_from': 'null',\n  'runTemplate': 'HyperDrive',\n  'azureml.runsource': 'hyperdrive',\n  'platform': 'AML',\n  'ContentSnapshotId': 'e4a27e66-b40f-4eed-b41a-3313e2cad3ec',\n  'score': '0.7575623562710065',\n  'best_child_run_id': 'HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9',\n  'best_metric_status': 'Succeeded'},\n 'inputDatasets': [],\n 'outputDatasets': [],\n 'logFiles': {'azureml-logs/hyperdrive.txt': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c/azureml-logs/hyperdrive.txt?sv=2019-02-02&sr=b&sig=0aqN8i6ENbGpmFpzkQMY11RrUNykUgjRRclPiUyCzoU%3D&st=2021-07-21T18%3A12%3A52Z&se=2021-07-22T02%3A22%3A52Z&sp=r'},\n 'submittedBy': '創 川田'}"
+            "text/plain": "{'runId': 'HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958',\n 'target': 'cpu-cluster',\n 'status': 'Completed',\n 'startTimeUtc': '2021-07-23T05:39:18.134384Z',\n 'endTimeUtc': '2021-07-23T05:53:54.852617Z',\n 'properties': {'primary_metric_config': '{\"name\": \"Accuracy\", \"goal\": \"maximize\"}',\n  'resume_from': 'null',\n  'runTemplate': 'HyperDrive',\n  'azureml.runsource': 'hyperdrive',\n  'platform': 'AML',\n  'ContentSnapshotId': '3eaa0ff2-5441-4ee9-b422-1e7e8500b802',\n  'score': '0.7566778701574385',\n  'best_child_run_id': 'HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1',\n  'best_metric_status': 'Succeeded'},\n 'inputDatasets': [],\n 'outputDatasets': [],\n 'logFiles': {'azureml-logs/hyperdrive.txt': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958/azureml-logs/hyperdrive.txt?sv=2019-02-02&sr=b&sig=Letd9CNxjGqz8%2BVG0NwUICaryAewZtDdY4uBgf8b%2BaE%3D&st=2021-07-23T05%3A43%3A57Z&se=2021-07-23T13%3A53%3A57Z&sp=r'},\n 'submittedBy': '創 川田'}"
           },
           "metadata": {}
-        },
-        {
-          "output_type": "error",
-          "ename": "KeyError",
-          "evalue": "'log_files'",
-          "traceback": [
-            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-            "\u001b[0;31mKeyError\u001b[0m                                  Traceback (most recent call last)",
-            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/ipywidgets/widgets/widget.py\u001b[0m in \u001b[0;36m_handle_msg\u001b[0;34m(self, msg)\u001b[0m\n\u001b[1;32m    674\u001b[0m                 \u001b[0;32mif\u001b[0m \u001b[0;34m'buffer_paths'\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mdata\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    675\u001b[0m                     \u001b[0m_put_buffers\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mstate\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mdata\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'buffer_paths'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mmsg\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'buffers'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 676\u001b[0;31m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mset_state\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mstate\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    677\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    678\u001b[0m         \u001b[0;31m# Handle a state request.\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/ipywidgets/widgets/widget.py\u001b[0m in \u001b[0;36mset_state\u001b[0;34m(self, sync_data)\u001b[0m\n\u001b[1;32m    543\u001b[0m                     from_json = self.trait_metadata(name, 'from_json',\n\u001b[1;32m    544\u001b[0m                                                     self._trait_from_json)\n\u001b[0;32m--> 545\u001b[0;31m                     \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mset_trait\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mname\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mfrom_json\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0msync_data\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0mname\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    546\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    547\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0msend\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mcontent\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mbuffers\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mNone\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/contextlib.py\u001b[0m in \u001b[0;36m__exit__\u001b[0;34m(self, type, value, traceback)\u001b[0m\n\u001b[1;32m     86\u001b[0m         \u001b[0;32mif\u001b[0m \u001b[0mtype\u001b[0m \u001b[0;32mis\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     87\u001b[0m             \u001b[0;32mtry\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 88\u001b[0;31m                 \u001b[0mnext\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mgen\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     89\u001b[0m             \u001b[0;32mexcept\u001b[0m \u001b[0mStopIteration\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     90\u001b[0m                 \u001b[0;32mreturn\u001b[0m \u001b[0;32mFalse\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/traitlets/traitlets.py\u001b[0m in \u001b[0;36mhold_trait_notifications\u001b[0;34m(self)\u001b[0m\n\u001b[1;32m   1129\u001b[0m                 \u001b[0;32mfor\u001b[0m \u001b[0mchanges\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mcache\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mvalues\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1130\u001b[0m                     \u001b[0;32mfor\u001b[0m \u001b[0mchange\u001b[0m \u001b[0;32min\u001b[0m \u001b[0mchanges\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1131\u001b[0;31m                         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mnotify_change\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mchange\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1132\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1133\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0m_notify_trait\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mname\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mold_value\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mnew_value\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/ipywidgets/widgets/widget.py\u001b[0m in \u001b[0;36mnotify_change\u001b[0;34m(self, change)\u001b[0m\n\u001b[1;32m    604\u001b[0m                 \u001b[0;31m# Send new state to front-end\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    605\u001b[0m                 \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0msend_state\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkey\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mname\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 606\u001b[0;31m         \u001b[0msuper\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mWidget\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mnotify_change\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mchange\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    607\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    608\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0m__repr__\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/traitlets/traitlets.py\u001b[0m in \u001b[0;36mnotify_change\u001b[0;34m(self, change)\u001b[0m\n\u001b[1;32m   1174\u001b[0m                 \u001b[0mc\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mgetattr\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mc\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mname\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1175\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m-> 1176\u001b[0;31m             \u001b[0mc\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mchange\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m   1177\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m   1178\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0m_add_notifiers\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mhandler\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mname\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mtype\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
-            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/azureml/widgets/_userrun/_run_details.py\u001b[0m in \u001b[0;36m_on_selected_run_log_change\u001b[0;34m(self, change)\u001b[0m\n\u001b[1;32m    622\u001b[0m     \u001b[0;32mdef\u001b[0m \u001b[0m_on_selected_run_log_change\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mself\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0mchange\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    623\u001b[0m         \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mselected_run_log\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mchange\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mnew\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 624\u001b[0;31m         self._get_run_logs_async(self.widget_instance.run_properties['log_files'],\n\u001b[0m\u001b[1;32m    625\u001b[0m                                  \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwidget_instance\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrun_properties\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'status'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    626\u001b[0m                                  self.error, change.new)\n",
-            "\u001b[0;31mKeyError\u001b[0m: 'log_files'"
-          ]
         }
       ],
       "execution_count": 6,
       "metadata": {
         "gather": {
-          "logged": 1626891771583
+          "logged": 1627019684577
         },
         "jupyter": {
           "outputs_hidden": false,
@@ -358,7 +341,7 @@
           }
         },
         "gather": {
-          "logged": 1626891773375
+          "logged": 1627019685328
         }
       }
     },
@@ -372,7 +355,7 @@
           "output_type": "execute_result",
           "execution_count": 8,
           "data": {
-            "text/plain": "{'runId': 'HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9',\n 'target': 'cpu-cluster',\n 'status': 'Completed',\n 'startTimeUtc': '2021-07-21T18:19:04.081101Z',\n 'endTimeUtc': '2021-07-21T18:19:42.967977Z',\n 'properties': {'_azureml.ComputeTargetType': 'amlcompute',\n  'ContentSnapshotId': 'e4a27e66-b40f-4eed-b41a-3313e2cad3ec',\n  'ProcessInfoFile': 'azureml-logs/process_info.json',\n  'ProcessStatusFile': 'azureml-logs/process_status.json',\n  'azureml.RuntimeType': 'Hosttools'},\n 'inputDatasets': [],\n 'outputDatasets': [],\n 'runDefinition': {'script': 'train.py',\n  'command': '',\n  'useAbsolutePath': False,\n  'arguments': ['--max_depth', '9', '--n_estimators', '70'],\n  'sourceDirectoryDataStore': None,\n  'framework': 'Python',\n  'communicator': 'None',\n  'target': 'cpu-cluster',\n  'dataReferences': {},\n  'data': {},\n  'outputData': {},\n  'datacaches': [],\n  'jobName': None,\n  'maxRunDurationSeconds': None,\n  'nodeCount': 1,\n  'priority': None,\n  'credentialPassthrough': False,\n  'identity': None,\n  'environment': {'name': 'Experiment capstone-hyperdrive Environment',\n   'version': 'Autosave_2021-07-19T07:06:25Z_69c6cb76',\n   'python': {'interpreterPath': 'python',\n    'userManagedDependencies': True,\n    'condaDependencies': {'name': 'project_environment',\n     'dependencies': ['python=3.6.2', {'pip': ['azureml-defaults']}],\n     'channels': ['anaconda', 'conda-forge']},\n    'baseCondaEnvironment': None},\n   'environmentVariables': {'EXAMPLE_ENV_VAR': 'EXAMPLE_VALUE'},\n   'docker': {'baseImage': 'sklearn:0.20.3-cpu',\n    'platform': {'os': 'Linux', 'architecture': 'amd64'},\n    'baseDockerfile': None,\n    'baseImageRegistry': {'address': 'viennaprivate.azurecr.io',\n     'username': None,\n     'password': None},\n    'enabled': True,\n    'arguments': []},\n   'spark': {'repositories': [], 'packages': [], 'precachePackages': False},\n   'inferencingStackVersion': None},\n  'history': {'outputCollection': True,\n   'directoriesToWatch': ['logs'],\n   'enableMLflowTracking': True,\n   'snapshotProject': True},\n  'spark': {'configuration': {'spark.app.name': 'Azure ML Experiment',\n    'spark.yarn.maxAppAttempts': '1'}},\n  'parallelTask': {'maxRetriesPerWorker': 0,\n   'workerCountPerNode': 1,\n   'terminalExitCodes': None,\n   'configuration': {}},\n  'amlCompute': {'name': None,\n   'vmSize': None,\n   'retainCluster': False,\n   'clusterMaxNodeCount': 1},\n  'aiSuperComputer': {'instanceType': None,\n   'imageVersion': None,\n   'location': None,\n   'aiSuperComputerStorageData': None,\n   'interactive': False,\n   'scalePolicy': None,\n   'virtualClusterArmId': None,\n   'tensorboardLogDirectory': None,\n   'sshPublicKey': None,\n   'enableAzmlInt': True,\n   'priority': None,\n   'slaTier': None},\n  'kubernetesCompute': {'instanceType': None},\n  'tensorflow': {'workerCount': 1, 'parameterServerCount': 1},\n  'mpi': {'processCountPerNode': 1},\n  'pyTorch': {'communicationBackend': 'nccl', 'processCount': None},\n  'hdi': {'yarnDeployMode': 'Cluster'},\n  'containerInstance': {'region': None, 'cpuCores': 2.0, 'memoryGb': 3.5},\n  'exposedPorts': None,\n  'docker': {'useDocker': False,\n   'sharedVolumes': True,\n   'shmSize': '2g',\n   'arguments': []},\n  'cmk8sCompute': {'configuration': {}},\n  'commandReturnCodeConfig': {'returnCode': 'Zero',\n   'successfulReturnCodes': []},\n  'environmentVariables': {},\n  'applicationEndpoints': {},\n  'parameters': []},\n 'logFiles': {'azureml-logs/55_azureml-execution-tvmps_720f1c2c4529aa69f4708867e498351139d89ee98324926a831be027216e14fd_d.txt': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9/azureml-logs/55_azureml-execution-tvmps_720f1c2c4529aa69f4708867e498351139d89ee98324926a831be027216e14fd_d.txt?sv=2019-02-02&sr=b&sig=ky7Y2xWQrKlcwaXVVjRMQ0Ynk0dYVPi5Rm%2FER6EAXv8%3D&st=2021-07-21T18%3A12%3A54Z&se=2021-07-22T02%3A22%3A54Z&sp=r',\n  'azureml-logs/65_job_prep-tvmps_720f1c2c4529aa69f4708867e498351139d89ee98324926a831be027216e14fd_d.txt': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9/azureml-logs/65_job_prep-tvmps_720f1c2c4529aa69f4708867e498351139d89ee98324926a831be027216e14fd_d.txt?sv=2019-02-02&sr=b&sig=khpRD%2F4GPLsOA7%2BDZUeWskZPWfDRuMkeJc7DU%2F%2FEG%2F4%3D&st=2021-07-21T18%3A12%3A54Z&se=2021-07-22T02%3A22%3A54Z&sp=r',\n  'azureml-logs/70_driver_log.txt': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9/azureml-logs/70_driver_log.txt?sv=2019-02-02&sr=b&sig=%2FMbslegiiXHSnFpZD%2FZMpR9Mt9lFnIeWWtNdQAMdfOE%3D&st=2021-07-21T18%3A12%3A54Z&se=2021-07-22T02%3A22%3A54Z&sp=r',\n  'azureml-logs/75_job_post-tvmps_720f1c2c4529aa69f4708867e498351139d89ee98324926a831be027216e14fd_d.txt': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9/azureml-logs/75_job_post-tvmps_720f1c2c4529aa69f4708867e498351139d89ee98324926a831be027216e14fd_d.txt?sv=2019-02-02&sr=b&sig=2Ul6pXyQ4OnZv7PKdPidejTAFeuX1TErCzbhsH9g2VE%3D&st=2021-07-21T18%3A12%3A54Z&se=2021-07-22T02%3A22%3A54Z&sp=r',\n  'azureml-logs/process_info.json': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9/azureml-logs/process_info.json?sv=2019-02-02&sr=b&sig=GDwDPSCgvZGX0MzQtS%2Ba9U4E0wPN0lodBRqUpnVXOQw%3D&st=2021-07-21T18%3A12%3A54Z&se=2021-07-22T02%3A22%3A54Z&sp=r',\n  'azureml-logs/process_status.json': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9/azureml-logs/process_status.json?sv=2019-02-02&sr=b&sig=d5SzHneVqBkXc8O0raSVgzC9OWxs8Xf5bppz96WndQM%3D&st=2021-07-21T18%3A12%3A54Z&se=2021-07-22T02%3A22%3A54Z&sp=r',\n  'logs/azureml/105_azureml.log': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9/logs/azureml/105_azureml.log?sv=2019-02-02&sr=b&sig=YPlSDwWHiLfM5g5q3Ubgax3wDI5E4%2BVVC%2FJg9BbuoQI%3D&st=2021-07-21T18%3A12%3A54Z&se=2021-07-22T02%3A22%3A54Z&sp=r',\n  'logs/azureml/job_prep_azureml.log': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9/logs/azureml/job_prep_azureml.log?sv=2019-02-02&sr=b&sig=TR50f2a7Dnq68AxodVdfhwfD1FLksdpYoAZxeX9LnZ4%3D&st=2021-07-21T18%3A12%3A54Z&se=2021-07-22T02%3A22%3A54Z&sp=r',\n  'logs/azureml/job_release_azureml.log': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9/logs/azureml/job_release_azureml.log?sv=2019-02-02&sr=b&sig=g3CxgQ2uVZ9D%2BHnpGQ5bPkVZHuwPPzY%2FaZ4R5ll86RE%3D&st=2021-07-21T18%3A12%3A54Z&se=2021-07-22T02%3A22%3A54Z&sp=r'},\n 'submittedBy': '創 川田'}"
+            "text/plain": "{'runId': 'HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1',\n 'target': 'cpu-cluster',\n 'status': 'Completed',\n 'startTimeUtc': '2021-07-23T05:42:49.606915Z',\n 'endTimeUtc': '2021-07-23T05:43:30.273361Z',\n 'properties': {'_azureml.ComputeTargetType': 'amlcompute',\n  'ContentSnapshotId': '3eaa0ff2-5441-4ee9-b422-1e7e8500b802',\n  'ProcessInfoFile': 'azureml-logs/process_info.json',\n  'ProcessStatusFile': 'azureml-logs/process_status.json',\n  'azureml.RuntimeType': 'Hosttools'},\n 'inputDatasets': [],\n 'outputDatasets': [],\n 'runDefinition': {'script': 'train.py',\n  'command': '',\n  'useAbsolutePath': False,\n  'arguments': ['--max_depth', '5', '--n_estimators', '90'],\n  'sourceDirectoryDataStore': None,\n  'framework': 'Python',\n  'communicator': 'None',\n  'target': 'cpu-cluster',\n  'dataReferences': {},\n  'data': {},\n  'outputData': {},\n  'datacaches': [],\n  'jobName': None,\n  'maxRunDurationSeconds': None,\n  'nodeCount': 1,\n  'priority': None,\n  'credentialPassthrough': False,\n  'identity': None,\n  'environment': {'name': 'Experiment capstone-hyperdrive Environment',\n   'version': 'Autosave_2021-07-19T07:06:25Z_69c6cb76',\n   'python': {'interpreterPath': 'python',\n    'userManagedDependencies': True,\n    'condaDependencies': {'name': 'project_environment',\n     'dependencies': ['python=3.6.2', {'pip': ['azureml-defaults']}],\n     'channels': ['anaconda', 'conda-forge']},\n    'baseCondaEnvironment': None},\n   'environmentVariables': {'EXAMPLE_ENV_VAR': 'EXAMPLE_VALUE'},\n   'docker': {'baseImage': 'sklearn:0.20.3-cpu',\n    'platform': {'os': 'Linux', 'architecture': 'amd64'},\n    'baseDockerfile': None,\n    'baseImageRegistry': {'address': 'viennaprivate.azurecr.io',\n     'username': None,\n     'password': None},\n    'enabled': True,\n    'arguments': []},\n   'spark': {'repositories': [], 'packages': [], 'precachePackages': False},\n   'inferencingStackVersion': None},\n  'history': {'outputCollection': True,\n   'directoriesToWatch': ['logs'],\n   'enableMLflowTracking': True,\n   'snapshotProject': True},\n  'spark': {'configuration': {'spark.app.name': 'Azure ML Experiment',\n    'spark.yarn.maxAppAttempts': '1'}},\n  'parallelTask': {'maxRetriesPerWorker': 0,\n   'workerCountPerNode': 1,\n   'terminalExitCodes': None,\n   'configuration': {}},\n  'amlCompute': {'name': None,\n   'vmSize': None,\n   'retainCluster': False,\n   'clusterMaxNodeCount': 1},\n  'aiSuperComputer': {'instanceType': None,\n   'imageVersion': None,\n   'location': None,\n   'aiSuperComputerStorageData': None,\n   'interactive': False,\n   'scalePolicy': None,\n   'virtualClusterArmId': None,\n   'tensorboardLogDirectory': None,\n   'sshPublicKey': None,\n   'enableAzmlInt': True,\n   'priority': None,\n   'slaTier': None},\n  'kubernetesCompute': {'instanceType': None},\n  'tensorflow': {'workerCount': 1, 'parameterServerCount': 1},\n  'mpi': {'processCountPerNode': 1},\n  'pyTorch': {'communicationBackend': 'nccl', 'processCount': None},\n  'hdi': {'yarnDeployMode': 'Cluster'},\n  'containerInstance': {'region': None, 'cpuCores': 2.0, 'memoryGb': 3.5},\n  'exposedPorts': None,\n  'docker': {'useDocker': False,\n   'sharedVolumes': True,\n   'shmSize': '2g',\n   'arguments': []},\n  'cmk8sCompute': {'configuration': {}},\n  'commandReturnCodeConfig': {'returnCode': 'Zero',\n   'successfulReturnCodes': []},\n  'environmentVariables': {},\n  'applicationEndpoints': {},\n  'parameters': []},\n 'logFiles': {'azureml-logs/55_azureml-execution-tvmps_e93d861633ee1772bebb34c0ad9019d8675480977ff9a1bef1a1a120fcface2f_d.txt': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1/azureml-logs/55_azureml-execution-tvmps_e93d861633ee1772bebb34c0ad9019d8675480977ff9a1bef1a1a120fcface2f_d.txt?sv=2019-02-02&sr=b&sig=BosHkrcRSuhVCV54Y1fYFOugAup5ETzmtFUuNiTrdRo%3D&st=2021-07-23T05%3A44%3A45Z&se=2021-07-23T13%3A54%3A45Z&sp=r',\n  'azureml-logs/65_job_prep-tvmps_e93d861633ee1772bebb34c0ad9019d8675480977ff9a1bef1a1a120fcface2f_d.txt': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1/azureml-logs/65_job_prep-tvmps_e93d861633ee1772bebb34c0ad9019d8675480977ff9a1bef1a1a120fcface2f_d.txt?sv=2019-02-02&sr=b&sig=G1ejt7wUIDWIeI9jb4%2BEmHBZnbxTPo10qljz4Ku5pGE%3D&st=2021-07-23T05%3A44%3A45Z&se=2021-07-23T13%3A54%3A45Z&sp=r',\n  'azureml-logs/70_driver_log.txt': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1/azureml-logs/70_driver_log.txt?sv=2019-02-02&sr=b&sig=Ka%2BsBJNO7qTZn2NH3edjQyNhvPZ06Ch1dSDXMz%2BRO0s%3D&st=2021-07-23T05%3A44%3A45Z&se=2021-07-23T13%3A54%3A45Z&sp=r',\n  'azureml-logs/75_job_post-tvmps_e93d861633ee1772bebb34c0ad9019d8675480977ff9a1bef1a1a120fcface2f_d.txt': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1/azureml-logs/75_job_post-tvmps_e93d861633ee1772bebb34c0ad9019d8675480977ff9a1bef1a1a120fcface2f_d.txt?sv=2019-02-02&sr=b&sig=RsRdZDXKYxtXsaIP1JGfAii5sDVAyBN0JIGfArhof%2Fs%3D&st=2021-07-23T05%3A44%3A45Z&se=2021-07-23T13%3A54%3A45Z&sp=r',\n  'azureml-logs/process_info.json': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1/azureml-logs/process_info.json?sv=2019-02-02&sr=b&sig=VD129BmrfQAlXr3QXfEHzPAesF67Mgo34k4jtSBjykE%3D&st=2021-07-23T05%3A44%3A45Z&se=2021-07-23T13%3A54%3A45Z&sp=r',\n  'azureml-logs/process_status.json': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1/azureml-logs/process_status.json?sv=2019-02-02&sr=b&sig=CMNJsu7A3zEQ9ZhwgM%2F4rgWfFq0FCNA2WRbnLvpqX%2Fs%3D&st=2021-07-23T05%3A44%3A45Z&se=2021-07-23T13%3A54%3A45Z&sp=r',\n  'logs/azureml/109_azureml.log': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1/logs/azureml/109_azureml.log?sv=2019-02-02&sr=b&sig=SypbnzHQIKNlH4wPCz5IFemyI%2Fcf1xH8TWVtOnAA5M0%3D&st=2021-07-23T05%3A44%3A45Z&se=2021-07-23T13%3A54%3A45Z&sp=r',\n  'logs/azureml/job_prep_azureml.log': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1/logs/azureml/job_prep_azureml.log?sv=2019-02-02&sr=b&sig=O6EXz1%2F9OsM%2FM%2BDYdeaqZCxL9JKVrooK0WnEhL%2BrYmQ%3D&st=2021-07-23T05%3A44%3A45Z&se=2021-07-23T13%3A54%3A45Z&sp=r',\n  'logs/azureml/job_release_azureml.log': 'https://udacitywstoragebfb88c525.blob.core.windows.net/azureml/ExperimentRun/dcid.HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1/logs/azureml/job_release_azureml.log?sv=2019-02-02&sr=b&sig=8n7v3dNTiVCOl%2FJCco6o6LZADAkbWvV%2Fe%2B02Zwqxwns%3D&st=2021-07-23T05%3A44%3A45Z&se=2021-07-23T13%3A54%3A45Z&sp=r'},\n 'submittedBy': '創 川田'}"
           },
           "metadata": {}
         }
@@ -390,7 +373,7 @@
           }
         },
         "gather": {
-          "logged": 1626891774232
+          "logged": 1627019685993
         }
       }
     },
@@ -412,21 +395,21 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "['--max_depth', '9', '--n_estimators', '70']\n",
-            "Best Run Id:  HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9\n",
-            "{'Number of Estimators:': 70.0, 'Max iterations:': 9, 'Accuracy': 0.7575623562710065}\n",
+            "['--max_depth', '5', '--n_estimators', '90']\n",
+            "Best Run Id:  HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1\n",
+            "{'Number of Estimators:': 90.0, 'Max iterations:': 5, 'Accuracy': 0.7566778701574385}\n",
             "Run(Experiment: capstone-hyperdrive,\n",
-            "Id: HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9,\n",
+            "Id: HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1,\n",
             "Type: azureml.scriptrun,\n",
             "Status: Completed)\n",
-            "['azureml-logs/55_azureml-execution-tvmps_720f1c2c4529aa69f4708867e498351139d89ee98324926a831be027216e14fd_d.txt', 'azureml-logs/65_job_prep-tvmps_720f1c2c4529aa69f4708867e498351139d89ee98324926a831be027216e14fd_d.txt', 'azureml-logs/70_driver_log.txt', 'azureml-logs/75_job_post-tvmps_720f1c2c4529aa69f4708867e498351139d89ee98324926a831be027216e14fd_d.txt', 'azureml-logs/process_info.json', 'azureml-logs/process_status.json', 'logs/azureml/105_azureml.log', 'logs/azureml/job_prep_azureml.log', 'logs/azureml/job_release_azureml.log', 'outputs/.amlignore', 'outputs/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9.pkl', 'outputs/inputsample.pkl']\n"
+            "['azureml-logs/55_azureml-execution-tvmps_e93d861633ee1772bebb34c0ad9019d8675480977ff9a1bef1a1a120fcface2f_d.txt', 'azureml-logs/65_job_prep-tvmps_e93d861633ee1772bebb34c0ad9019d8675480977ff9a1bef1a1a120fcface2f_d.txt', 'azureml-logs/70_driver_log.txt', 'azureml-logs/75_job_post-tvmps_e93d861633ee1772bebb34c0ad9019d8675480977ff9a1bef1a1a120fcface2f_d.txt', 'azureml-logs/process_info.json', 'azureml-logs/process_status.json', 'logs/azureml/109_azureml.log', 'logs/azureml/job_prep_azureml.log', 'logs/azureml/job_release_azureml.log', 'outputs/.amlignore', 'outputs/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1.pkl', 'outputs/inputsample.pkl', 'outputs/modelhd.pkl']\n"
           ]
         }
       ],
       "execution_count": 9,
       "metadata": {
         "gather": {
-          "logged": 1626891777403
+          "logged": 1627019686684
         },
         "jupyter": {
           "outputs_hidden": false,
@@ -450,7 +433,7 @@
           "output_type": "execute_result",
           "execution_count": 10,
           "data": {
-            "text/plain": "{'script': 'train.py',\n 'command': '',\n 'useAbsolutePath': False,\n 'arguments': ['--max_depth', '9', '--n_estimators', '70'],\n 'sourceDirectoryDataStore': None,\n 'framework': 'Python',\n 'communicator': 'None',\n 'target': 'cpu-cluster',\n 'dataReferences': {},\n 'data': {},\n 'outputData': {},\n 'datacaches': [],\n 'jobName': None,\n 'maxRunDurationSeconds': None,\n 'nodeCount': 1,\n 'priority': None,\n 'credentialPassthrough': False,\n 'identity': None,\n 'environment': {'name': 'Experiment capstone-hyperdrive Environment',\n  'version': 'Autosave_2021-07-19T07:06:25Z_69c6cb76',\n  'python': {'interpreterPath': 'python',\n   'userManagedDependencies': True,\n   'condaDependencies': {'name': 'project_environment',\n    'dependencies': ['python=3.6.2', {'pip': ['azureml-defaults']}],\n    'channels': ['anaconda', 'conda-forge']},\n   'baseCondaEnvironment': None},\n  'environmentVariables': {'EXAMPLE_ENV_VAR': 'EXAMPLE_VALUE'},\n  'docker': {'baseImage': 'sklearn:0.20.3-cpu',\n   'platform': {'os': 'Linux', 'architecture': 'amd64'},\n   'baseDockerfile': None,\n   'baseImageRegistry': {'address': 'viennaprivate.azurecr.io',\n    'username': None,\n    'password': None},\n   'enabled': True,\n   'arguments': []},\n  'spark': {'repositories': [], 'packages': [], 'precachePackages': False},\n  'inferencingStackVersion': None},\n 'history': {'outputCollection': True,\n  'directoriesToWatch': ['logs'],\n  'enableMLflowTracking': True,\n  'snapshotProject': True},\n 'spark': {'configuration': {'spark.app.name': 'Azure ML Experiment',\n   'spark.yarn.maxAppAttempts': '1'}},\n 'parallelTask': {'maxRetriesPerWorker': 0,\n  'workerCountPerNode': 1,\n  'terminalExitCodes': None,\n  'configuration': {}},\n 'amlCompute': {'name': None,\n  'vmSize': None,\n  'retainCluster': False,\n  'clusterMaxNodeCount': 1},\n 'aiSuperComputer': {'instanceType': None,\n  'imageVersion': None,\n  'location': None,\n  'aiSuperComputerStorageData': None,\n  'interactive': False,\n  'scalePolicy': None,\n  'virtualClusterArmId': None,\n  'tensorboardLogDirectory': None,\n  'sshPublicKey': None,\n  'enableAzmlInt': True,\n  'priority': None,\n  'slaTier': None},\n 'kubernetesCompute': {'instanceType': None},\n 'tensorflow': {'workerCount': 1, 'parameterServerCount': 1},\n 'mpi': {'processCountPerNode': 1},\n 'pyTorch': {'communicationBackend': 'nccl', 'processCount': None},\n 'hdi': {'yarnDeployMode': 'Cluster'},\n 'containerInstance': {'region': None, 'cpuCores': 2.0, 'memoryGb': 3.5},\n 'exposedPorts': None,\n 'docker': {'useDocker': False,\n  'sharedVolumes': True,\n  'shmSize': '2g',\n  'arguments': []},\n 'cmk8sCompute': {'configuration': {}},\n 'commandReturnCodeConfig': {'returnCode': 'Zero',\n  'successfulReturnCodes': []},\n 'environmentVariables': {},\n 'applicationEndpoints': {},\n 'parameters': []}"
+            "text/plain": "{'script': 'train.py',\n 'command': '',\n 'useAbsolutePath': False,\n 'arguments': ['--max_depth', '5', '--n_estimators', '90'],\n 'sourceDirectoryDataStore': None,\n 'framework': 'Python',\n 'communicator': 'None',\n 'target': 'cpu-cluster',\n 'dataReferences': {},\n 'data': {},\n 'outputData': {},\n 'datacaches': [],\n 'jobName': None,\n 'maxRunDurationSeconds': None,\n 'nodeCount': 1,\n 'priority': None,\n 'credentialPassthrough': False,\n 'identity': None,\n 'environment': {'name': 'Experiment capstone-hyperdrive Environment',\n  'version': 'Autosave_2021-07-19T07:06:25Z_69c6cb76',\n  'python': {'interpreterPath': 'python',\n   'userManagedDependencies': True,\n   'condaDependencies': {'name': 'project_environment',\n    'dependencies': ['python=3.6.2', {'pip': ['azureml-defaults']}],\n    'channels': ['anaconda', 'conda-forge']},\n   'baseCondaEnvironment': None},\n  'environmentVariables': {'EXAMPLE_ENV_VAR': 'EXAMPLE_VALUE'},\n  'docker': {'baseImage': 'sklearn:0.20.3-cpu',\n   'platform': {'os': 'Linux', 'architecture': 'amd64'},\n   'baseDockerfile': None,\n   'baseImageRegistry': {'address': 'viennaprivate.azurecr.io',\n    'username': None,\n    'password': None},\n   'enabled': True,\n   'arguments': []},\n  'spark': {'repositories': [], 'packages': [], 'precachePackages': False},\n  'inferencingStackVersion': None},\n 'history': {'outputCollection': True,\n  'directoriesToWatch': ['logs'],\n  'enableMLflowTracking': True,\n  'snapshotProject': True},\n 'spark': {'configuration': {'spark.app.name': 'Azure ML Experiment',\n   'spark.yarn.maxAppAttempts': '1'}},\n 'parallelTask': {'maxRetriesPerWorker': 0,\n  'workerCountPerNode': 1,\n  'terminalExitCodes': None,\n  'configuration': {}},\n 'amlCompute': {'name': None,\n  'vmSize': None,\n  'retainCluster': False,\n  'clusterMaxNodeCount': 1},\n 'aiSuperComputer': {'instanceType': None,\n  'imageVersion': None,\n  'location': None,\n  'aiSuperComputerStorageData': None,\n  'interactive': False,\n  'scalePolicy': None,\n  'virtualClusterArmId': None,\n  'tensorboardLogDirectory': None,\n  'sshPublicKey': None,\n  'enableAzmlInt': True,\n  'priority': None,\n  'slaTier': None},\n 'kubernetesCompute': {'instanceType': None},\n 'tensorflow': {'workerCount': 1, 'parameterServerCount': 1},\n 'mpi': {'processCountPerNode': 1},\n 'pyTorch': {'communicationBackend': 'nccl', 'processCount': None},\n 'hdi': {'yarnDeployMode': 'Cluster'},\n 'containerInstance': {'region': None, 'cpuCores': 2.0, 'memoryGb': 3.5},\n 'exposedPorts': None,\n 'docker': {'useDocker': False,\n  'sharedVolumes': True,\n  'shmSize': '2g',\n  'arguments': []},\n 'cmk8sCompute': {'configuration': {}},\n 'commandReturnCodeConfig': {'returnCode': 'Zero',\n  'successfulReturnCodes': []},\n 'environmentVariables': {},\n 'applicationEndpoints': {},\n 'parameters': []}"
           },
           "metadata": {}
         }
@@ -468,7 +451,7 @@
           }
         },
         "gather": {
-          "logged": 1626891778130
+          "logged": 1627019687398
         }
       }
     },
@@ -484,7 +467,7 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Model(workspace=Workspace.create(name='udacityws', subscription_id='653662f1-95de-4498-b876-1fd625bf5d18', resource_group='udacitycapstone'), name=hyperdrive_best_run, id=hyperdrive_best_run:6, version=6, tags={}, properties={})\n"
+            "Model(workspace=Workspace.create(name='udacityws', subscription_id='653662f1-95de-4498-b876-1fd625bf5d18', resource_group='udacitycapstone'), name=hyperdrive_best_run, id=hyperdrive_best_run:7, version=7, tags={}, properties={})\n"
           ]
         }
       ],
@@ -501,7 +484,7 @@
           }
         },
         "gather": {
-          "logged": 1626891781338
+          "logged": 1627019688258
         }
       }
     },
@@ -509,20 +492,20 @@
       "cell_type": "code",
       "source": [
         "from azureml.core.model import Model\r\n",
-        "model_path = Model.get_model_path('hyperdrive_best_run', version=6, _workspace=workspace)\r\n",
+        "model_path = Model.get_model_path('hyperdrive_best_run', version=7, _workspace=workspace)\r\n",
         "model_path"
       ],
       "outputs": [
         {
           "output_type": "execute_result",
-          "execution_count": 12,
+          "execution_count": 13,
           "data": {
-            "text/plain": "'azureml-models/hyperdrive_best_run/6/HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9.pkl'"
+            "text/plain": "'azureml-models/hyperdrive_best_run/7/HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1.pkl'"
           },
           "metadata": {}
         }
       ],
-      "execution_count": 12,
+      "execution_count": 13,
       "metadata": {
         "collapsed": true,
         "jupyter": {
@@ -535,7 +518,7 @@
           }
         },
         "gather": {
-          "logged": 1626891782199
+          "logged": 1627019875245
         }
       }
     },
@@ -572,16 +555,16 @@
           "name": "stdout",
           "text": [
             "Run(Experiment: capstone-hyperdrive,\n",
-            "Id: HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9,\n",
+            "Id: HD_76afbe43-5c9e-41f0-b1d2-1bbc969bb958_1,\n",
             "Type: azureml.scriptrun,\n",
             "Status: Completed)\n"
           ]
         }
       ],
-      "execution_count": 13,
+      "execution_count": 14,
       "metadata": {
         "gather": {
-          "logged": 1626891783586
+          "logged": 1627019881921
         }
       }
     },
@@ -597,6 +580,7 @@
       "source": [
         "from azureml.core.model import InferenceConfig\r\n",
         "from azureml.core.environment import Environment\r\n",
+        "import sklearn\r\n",
         "\r\n",
         "\r\n",
         "# Combine scoring script & environment in Inference configuration\r\n",
@@ -609,23 +593,71 @@
         "env.python.conda_dependencies.add_pip_package(\"azureml-defaults\")\r\n",
         "env.python.conda_dependencies.add_pip_package(\"azureml-core\")\r\n",
         "#env.python.conda_dependencies.add_pip_package(\"inference-schema\")\r\n",
-        "env.python.conda_dependencies.add_pip_package(\"scikit-learn==0.22\")\r\n",
+        "env.python.conda_dependencies.add_pip_package(f\"scikit-learn=={sklearn.__version__}\")\r\n",
+        "# advised by the warning\r\n",
+        "env.inferencing_stack_version='latest'\r\n",
         "script_file= 'scorehd.py'\r\n",
         "inference_config = InferenceConfig(entry_script=script_file, environment=env)"
+      ],
+      "outputs": [],
+      "execution_count": 64,
+      "metadata": {
+        "gather": {
+          "logged": 1627116778065
+        }
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(env.python.conda_dependencies.serialize_to_string())"
       ],
       "outputs": [
         {
           "output_type": "stream",
-          "name": "stderr",
+          "name": "stdout",
           "text": [
-            "WARNING:azureml.core.model:Warning, custom base image or base dockerfile detected without a specified `inferencing_stack_version`. Please set environment.inferencing_stack_version='latest'\n"
+            "name: project_environment\n",
+            "dependencies:\n",
+            "- python=3.6.2\n",
+            "- pip:\n",
+            "  - azureml-defaults\n",
+            "  - azureml-core\n",
+            "  - scikit-learn==0.22.2.post1\n",
+            "channels:\n",
+            "- anaconda\n",
+            "- conda-forge\n",
+            "\n"
           ]
         }
       ],
-      "execution_count": 16,
+      "execution_count": 65,
       "metadata": {
+        "collapsed": true,
+        "jupyter": {
+          "source_hidden": false,
+          "outputs_hidden": false
+        },
+        "nteract": {
+          "transient": {
+            "deleting": false
+          }
+        },
         "gather": {
-          "logged": 1626891846491
+          "logged": 1627116783787
+        }
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "workspace.write_config()"
+      ],
+      "metadata": {
+        "nteract": {
+          "transient": {
+            "deleting": false
+          }
         }
       }
     },
@@ -640,7 +672,7 @@
         "                                               enable_app_insights=True)"
       ],
       "outputs": [],
-      "execution_count": 17,
+      "execution_count": 66,
       "metadata": {
         "collapsed": true,
         "jupyter": {
@@ -653,7 +685,91 @@
           }
         },
         "gather": {
-          "logged": 1626891851704
+          "logged": 1627116789053
+        }
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Test Local deployment first."
+      ],
+      "metadata": {
+        "nteract": {
+          "transient": {
+            "deleting": false
+          }
+        }
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from azureml.core.webservice import LocalWebservice\r\n",
+        "\r\n",
+        "# This is optional, if not provided Docker will choose a random unused port.\r\n",
+        "deployment_config = LocalWebservice.deploy_configuration(port=6789)\r\n",
+        "\r\n",
+        "local_service = Model.deploy(workspace, \"test\", [model], inference_config, deployment_config)\r\n",
+        "\r\n",
+        "local_service.wait_for_deployment(show_output = True)"
+      ],
+      "outputs": [],
+      "execution_count": null,
+      "metadata": {
+        "collapsed": true,
+        "jupyter": {
+          "source_hidden": false,
+          "outputs_hidden": false
+        },
+        "nteract": {
+          "transient": {
+            "deleting": false
+          }
+        }
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "local_service.get_logs()"
+      ],
+      "metadata": {
+        "nteract": {
+          "transient": {
+            "deleting": false
+          }
+        }
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "local_service.delete()"
+      ],
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Container has been successfully cleaned up.\n"
+          ]
+        }
+      ],
+      "execution_count": 62,
+      "metadata": {
+        "collapsed": true,
+        "jupyter": {
+          "source_hidden": false,
+          "outputs_hidden": false
+        },
+        "nteract": {
+          "transient": {
+            "deleting": false
+          }
+        },
+        "gather": {
+          "logged": 1627116144274
         }
       }
     },
@@ -669,55 +785,10 @@
         "    inference_config = inference_config,\r\n",
         "    deployment_config = deployment_config,\r\n",
         "    overwrite = True)\r\n",
-        "service.wait_for_deployment(show_output=True)"
+        "#service.wait_for_deployment(show_output=True)"
       ],
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Tips: You can try get_logs(): https://aka.ms/debugimage#dockerlog or local deployment: https://aka.ms/debugimage#debug-locally to debug if deployment takes longer than 10 minutes.\n",
-            "Running\n",
-            "2021-07-21 23:33:06+00:00 Creating Container Registry if not exists.\n",
-            "2021-07-21 23:33:06+00:00 Registering the environment.\n",
-            "2021-07-21 23:33:10+00:00 Use the existing image.\n",
-            "2021-07-21 23:33:11+00:00 Generating deployment configuration.\n",
-            "2021-07-21 23:33:11+00:00 Submitting deployment to compute..\n",
-            "2021-07-21 23:33:15+00:00 Checking the status of deployment capstone-hyperdrive-model.\n",
-            "TimedOut\n"
-          ]
-        },
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": [
-            "ERROR:azureml.core.webservice.webservice:Service deployment polling reached non-successful terminal state, current service state: Unhealthy\n",
-            "Operation ID: d5f4ef9e-6996-4136-b84e-4b5b52fcf09e\n",
-            "More information can be found using '.get_logs()'\n",
-            "Error:\n",
-            "{\n",
-            "  \"code\": \"DeploymentTimedOut\",\n",
-            "  \"statusCode\": 504,\n",
-            "  \"message\": \"The deployment operation polling has TimedOut. The service creation is taking longer than our normal time. We are still trying to achieve the desired state for the web service. Please check the webservice state for the current webservice health. You can run print(service.state) from the python SDK to retrieve the current state of the webservice. \n",
-            "Please refer to https://aka.ms/debugimage#dockerlog for more information.\"\n",
-            "}\n",
-            "\n"
-          ]
-        },
-        {
-          "output_type": "error",
-          "ename": "WebserviceException",
-          "evalue": "WebserviceException:\n\tMessage: Service deployment polling reached non-successful terminal state, current service state: Unhealthy\nOperation ID: d5f4ef9e-6996-4136-b84e-4b5b52fcf09e\nMore information can be found using '.get_logs()'\nError:\n{\n  \"code\": \"DeploymentTimedOut\",\n  \"statusCode\": 504,\n  \"message\": \"The deployment operation polling has TimedOut. The service creation is taking longer than our normal time. We are still trying to achieve the desired state for the web service. Please check the webservice state for the current webservice health. You can run print(service.state) from the python SDK to retrieve the current state of the webservice. \nPlease refer to https://aka.ms/debugimage#dockerlog for more information.\"\n}\n\tInnerException None\n\tErrorResponse \n{\n    \"error\": {\n        \"message\": \"Service deployment polling reached non-successful terminal state, current service state: Unhealthy\\nOperation ID: d5f4ef9e-6996-4136-b84e-4b5b52fcf09e\\nMore information can be found using '.get_logs()'\\nError:\\n{\\n  \\\"code\\\": \\\"DeploymentTimedOut\\\",\\n  \\\"statusCode\\\": 504,\\n  \\\"message\\\": \\\"The deployment operation polling has TimedOut. The service creation is taking longer than our normal time. We are still trying to achieve the desired state for the web service. Please check the webservice state for the current webservice health. You can run print(service.state) from the python SDK to retrieve the current state of the webservice. \\nPlease refer to https://aka.ms/debugimage#dockerlog for more information.\\\"\\n}\"\n    }\n}",
-          "traceback": [
-            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
-            "\u001b[0;31mWebserviceException\u001b[0m                       Traceback (most recent call last)",
-            "\u001b[0;32m<ipython-input-19-ceefc9fcdc68>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      8\u001b[0m     \u001b[0mdeployment_config\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mdeployment_config\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      9\u001b[0m     overwrite = True)\n\u001b[0;32m---> 10\u001b[0;31m \u001b[0mservice\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mwait_for_deployment\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mshow_output\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;32mTrue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
-            "\u001b[0;32m/anaconda/envs/azureml_py36/lib/python3.6/site-packages/azureml/core/webservice/webservice.py\u001b[0m in \u001b[0;36mwait_for_deployment\u001b[0;34m(self, show_output, timeout_sec)\u001b[0m\n\u001b[1;32m    923\u001b[0m                                           \u001b[0;34m'Error:\\n'\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    924\u001b[0m                                           '{}'.format(self.state, self._operation_endpoint.split('/')[-1],\n\u001b[0;32m--> 925\u001b[0;31m                                                       logs_response, format_error_response), logger=module_logger)\n\u001b[0m\u001b[1;32m    926\u001b[0m             print('{} service creation operation finished, operation \"{}\"'.format(self._webservice_type,\n\u001b[1;32m    927\u001b[0m                                                                                   operation_state))\n",
-            "\u001b[0;31mWebserviceException\u001b[0m: WebserviceException:\n\tMessage: Service deployment polling reached non-successful terminal state, current service state: Unhealthy\nOperation ID: d5f4ef9e-6996-4136-b84e-4b5b52fcf09e\nMore information can be found using '.get_logs()'\nError:\n{\n  \"code\": \"DeploymentTimedOut\",\n  \"statusCode\": 504,\n  \"message\": \"The deployment operation polling has TimedOut. The service creation is taking longer than our normal time. We are still trying to achieve the desired state for the web service. Please check the webservice state for the current webservice health. You can run print(service.state) from the python SDK to retrieve the current state of the webservice. \nPlease refer to https://aka.ms/debugimage#dockerlog for more information.\"\n}\n\tInnerException None\n\tErrorResponse \n{\n    \"error\": {\n        \"message\": \"Service deployment polling reached non-successful terminal state, current service state: Unhealthy\\nOperation ID: d5f4ef9e-6996-4136-b84e-4b5b52fcf09e\\nMore information can be found using '.get_logs()'\\nError:\\n{\\n  \\\"code\\\": \\\"DeploymentTimedOut\\\",\\n  \\\"statusCode\\\": 504,\\n  \\\"message\\\": \\\"The deployment operation polling has TimedOut. The service creation is taking longer than our normal time. We are still trying to achieve the desired state for the web service. Please check the webservice state for the current webservice health. You can run print(service.state) from the python SDK to retrieve the current state of the webservice. \\nPlease refer to https://aka.ms/debugimage#dockerlog for more information.\\\"\\n}\"\n    }\n}"
-          ]
-        }
-      ],
-      "execution_count": 19,
+      "outputs": [],
+      "execution_count": 92,
       "metadata": {
         "collapsed": true,
         "jupyter": {
@@ -730,69 +801,7 @@
           }
         },
         "gather": {
-          "logged": 1626843926070
-        }
-      }
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(service.get_logs())"
-      ],
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "None\n"
-          ]
-        }
-      ],
-      "execution_count": 22,
-      "metadata": {
-        "collapsed": true,
-        "jupyter": {
-          "source_hidden": false,
-          "outputs_hidden": false
-        },
-        "nteract": {
-          "transient": {
-            "deleting": false
-          }
-        },
-        "gather": {
-          "logged": 1626915289352
-        }
-      }
-    },
-    {
-      "cell_type": "code",
-      "source": [
-        "print(service.state)"
-      ],
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Unhealthy\n"
-          ]
-        }
-      ],
-      "execution_count": 23,
-      "metadata": {
-        "collapsed": true,
-        "jupyter": {
-          "source_hidden": false,
-          "outputs_hidden": false
-        },
-        "nteract": {
-          "transient": {
-            "deleting": false
-          }
-        },
-        "gather": {
-          "logged": 1626915294616
+          "logged": 1627117385341
         }
       }
     },
@@ -806,19 +815,84 @@
     {
       "cell_type": "code",
       "source": [
-        "service"
+        "print(service.get_logs())"
       ],
       "outputs": [
         {
-          "output_type": "execute_result",
-          "execution_count": 24,
-          "data": {
-            "text/plain": "AciWebservice(workspace=Workspace.create(name='udacityws', subscription_id='653662f1-95de-4498-b876-1fd625bf5d18', resource_group='udacitycapstone'), name=capstone-hyperdrive-model, image_id=None, compute_type=None, state=ACI, scoring_uri=Unhealthy, tags=http://864340b8-01bd-4e31-a356-660c83b33fd2.japaneast.azurecontainer.io/score, properties=None, created_by={'azureml.git.repository_uri': 'https://github.com/HajimeK/nd00333-capstone', 'mlflow.source.git.repoURL': 'https://github.com/HajimeK/nd00333-capstone', 'azureml.git.branch': 'master', 'mlflow.source.git.branch': 'master', 'azureml.git.commit': 'bb8bb394f2d1a40e23f582b5c1b308628e329b33', 'mlflow.source.git.commit': 'bb8bb394f2d1a40e23f582b5c1b308628e329b33', 'azureml.git.dirty': 'True', 'hasInferenceSchema': 'False', 'hasHttps': 'False'})"
-          },
-          "metadata": {}
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2021-07-24T09:03:36,171522800+00:00 - gunicorn/run \n",
+            "2021-07-24T09:03:36,170198300+00:00 - rsyslog/run \n",
+            "2021-07-24T09:03:36,194941800+00:00 - iot-server/run \n",
+            "2021-07-24T09:03:36,230624100+00:00 - nginx/run \n",
+            "EdgeHubConnectionString and IOTEDGE_IOTHUBHOSTNAME are not set. Exiting...\n",
+            "2021-07-24T09:03:36,989283000+00:00 - iot-server/finish 1 0\n",
+            "2021-07-24T09:03:37,000825800+00:00 - Exit code 1 is normal. Not restarting iot-server.\n",
+            "Dynamic Python package installation is disabled.\n",
+            "Starting HTTP server\n",
+            "Starting gunicorn 19.9.0\n",
+            "Listening at: http://127.0.0.1:31311 (61)\n",
+            "Using worker: sync\n",
+            "worker timeout is set to 300\n",
+            "Booting worker with pid: 96\n",
+            "SPARK_HOME not set. Skipping PySpark Initialization.\n",
+            "Initializing logger\n",
+            "2021-07-24 09:03:40,220 | root | INFO | Starting up app insights client\n",
+            "logging socket was found. logging is available.\n",
+            "logging socket was found. logging is available.\n",
+            "2021-07-24 09:03:40,221 | root | INFO | Starting up request id generator\n",
+            "2021-07-24 09:03:40,221 | root | INFO | Starting up app insight hooks\n",
+            "2021-07-24 09:03:40,221 | root | INFO | Invoking user's init function\n",
+            "2021-07-24 09:03:40,262 | azureml._vendor.azure_cli_core._session | INFO | Failed to load or parse file /root/.azureml/auth/azureProfile.json. It will be overridden by default settings.\n",
+            "Failed to load or parse file /root/.azureml/auth/azureProfile.json. It will be overridden by default settings.\n",
+            "2021-07-24 09:03:40,263 | azureml._vendor.azure_cli_core._session | INFO | Failed to load or parse file /root/.azureml/auth/az.json. It will be overridden by default settings.\n",
+            "Failed to load or parse file /root/.azureml/auth/az.json. It will be overridden by default settings.\n",
+            "2021-07-24 09:03:40,264 | azureml._vendor.azure_cli_core._session | INFO | Failed to load or parse file /root/.azureml/auth/az.sess. It will be overridden by default settings.\n",
+            "Failed to load or parse file /root/.azureml/auth/az.sess. It will be overridden by default settings.\n",
+            "2021-07-24 09:03:40,264 | azureml._vendor.azure_cli_core._session | INFO | Failed to load or parse file /root/.azure/azureProfile.json. It will be overridden by default settings.\n",
+            "Failed to load or parse file /root/.azure/azureProfile.json. It will be overridden by default settings.\n",
+            "Performing interactive authentication. Please follow the instructions on the terminal.\n",
+            "no request id,Performing interactive authentication. Please follow the instructions on the terminal.\n",
+            "\n",
+            "2021-07-24 09:03:40,273 | azureml._vendor.azure_cli_core._profile | INFO | Detect no GUI is available, so fall back to device code\n",
+            "Detect no GUI is available, so fall back to device code\n",
+            "ca79491f-d4ee-4e8d-9e91-f5d4d86f039b - CodeRequest:Getting user code info.\n",
+            "To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code SQ9QB2HKH to authenticate.\n",
+            "no request id,To sign in, use a web browser to open the page https://microsoft.com/devicelogin and enter the code SQ9QB2HKH to authenticate.\n",
+            "\n",
+            "ca79491f-d4ee-4e8d-9e91-f5d4d86f039b - TokenRequest:Getting a token via device code\n",
+            "978ea463-bdf4-474c-b1ef-18c1a8d00632 - CacheDriver:Acquiring new access token from MRRT token.\n",
+            "978ea463-bdf4-474c-b1ef-18c1a8d00632 - TokenRequest:Getting a new token from a refresh token\n",
+            "978ea463-bdf4-474c-b1ef-18c1a8d00632 - CacheDriver:Returning token derived from mrrt refresh.\n",
+            "2f2e16a4-0969-4fda-a744-14ff577b47cb - CacheDriver:Acquiring new access token from MRRT token.\n",
+            "2f2e16a4-0969-4fda-a744-14ff577b47cb - TokenRequest:Getting a new token from a refresh token\n",
+            "2f2e16a4-0969-4fda-a744-14ff577b47cb - CacheDriver:Returning token derived from mrrt refresh.\n",
+            "Interactive authentication successfully completed.\n",
+            "no request id,Interactive authentication successfully completed.\n",
+            "\n",
+            "2021-07-24 09:04:40,132 | root | INFO | Users's init has completed successfully\n",
+            "2021-07-24 09:04:40,140 | root | INFO | Skipping middleware: dbg_model_info as it's not enabled.\n",
+            "2021-07-24 09:04:40,140 | root | INFO | Skipping middleware: dbg_resource_usage as it's not enabled.\n",
+            "2021-07-24 09:04:40,141 | root | INFO | Scoring timeout is found from os.environ: 60000 ms\n",
+            "2021-07-24 09:04:51,648 | root | INFO | Swagger file not present\n",
+            "2021-07-24 09:04:51,648 | root | INFO | 404\n",
+            "127.0.0.1 - - [24/Jul/2021:09:04:51 +0000] \"GET /swagger.json HTTP/1.0\" 404 19 \"-\" \"Go-http-client/1.1\"\n",
+            "2021-07-24 09:06:07,339 | root | INFO | Swagger file not present\n",
+            "2021-07-24 09:06:07,342 | root | INFO | 404\n",
+            "127.0.0.1 - - [24/Jul/2021:09:06:07 +0000] \"GET /swagger.json HTTP/1.0\" 404 19 \"-\" \"Go-http-client/1.1\"\n",
+            "2021-07-24 09:09:51,890 | root | INFO | Swagger file not present\n",
+            "2021-07-24 09:09:51,899 | root | INFO | 404\n",
+            "127.0.0.1 - - [24/Jul/2021:09:09:51 +0000] \"GET /swagger.json HTTP/1.0\" 404 19 \"-\" \"Go-http-client/1.1\"\n",
+            "127.0.0.1 - - [24/Jul/2021:09:52:23 +0000] \"POST /boaform/admin/formLogin HTTP/1.0\" 404 232 \"http://20.89.186.9:80/admin/login.asp\" \"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0\"\n",
+            "2021-07-24 10:07:33,204 | root | INFO | Swagger file not present\n",
+            "2021-07-24 10:07:33,209 | root | INFO | 404\n",
+            "127.0.0.1 - - [24/Jul/2021:10:07:33 +0000] \"GET /swagger.json HTTP/1.0\" 404 19 \"-\" \"Go-http-client/1.1\"\n",
+            "\n"
+          ]
         }
       ],
-      "execution_count": 24,
+      "execution_count": 104,
       "metadata": {
         "collapsed": true,
         "jupyter": {
@@ -831,17 +905,26 @@
           }
         },
         "gather": {
-          "logged": 1626915297765
+          "logged": 1627121261639
         }
       }
     },
     {
       "cell_type": "code",
       "source": [
-        "print(service.get_logs())"
+        "service"
       ],
-      "outputs": [],
-      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "execution_count": 106,
+          "data": {
+            "text/plain": "AciWebservice(workspace=Workspace.create(name='udacityws', subscription_id='653662f1-95de-4498-b876-1fd625bf5d18', resource_group='udacitycapstone'), name=capstone-hyperdrive-model, image_id=None, compute_type=None, state=ACI, scoring_uri=Transitioning, tags=None, properties={}, created_by={'azureml.git.repository_uri': 'https://github.com/HajimeK/nd00333-capstone', 'mlflow.source.git.repoURL': 'https://github.com/HajimeK/nd00333-capstone', 'azureml.git.branch': 'master', 'mlflow.source.git.branch': 'master', 'azureml.git.commit': 'bb8bb394f2d1a40e23f582b5c1b308628e329b33', 'mlflow.source.git.commit': 'bb8bb394f2d1a40e23f582b5c1b308628e329b33', 'azureml.git.dirty': 'True'})"
+          },
+          "metadata": {}
+        }
+      ],
+      "execution_count": 106,
       "metadata": {
         "collapsed": true,
         "jupyter": {
@@ -852,6 +935,9 @@
           "transient": {
             "deleting": false
           }
+        },
+        "gather": {
+          "logged": 1627121279392
         }
       }
     },
@@ -872,17 +958,10 @@
         "from sklearn.preprocessing import MinMaxScaler\r\n",
         "import json\r\n",
         "\r\n",
-        "# TODO: Create TabularDataset using TabularDatasetFactory\r\n",
-        "# Data is located at:\r\n",
-        "# \"https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv\"\r\n",
         "\r\n",
-        "datastore_path = \"https://raw.githubusercontent.com/HajimeK/machine-learning/master/projects/finding_donors/census.csv\"\r\n",
-        "ds = TabularDatasetFactory.from_delimited_files(path=datastore_path)\r\n",
-        "data = ds.to_pandas_dataframe().dropna()\r\n",
         "\r\n",
         "def clean_data(dataset):\r\n",
-        "    data = dataset.to_pandas_dataframe().dropna()\r\n",
-        "    features_raw = data.drop('income', axis=1)\r\n",
+        "    features_raw = dataset.drop('income', axis=1)\r\n",
         "    features_log_transformed = pd.DataFrame(data = features_raw)\r\n",
         "    skewed = ['capital-gain', 'capital-loss']\r\n",
         "    features_log_transformed[skewed] = features_raw[skewed].apply(lambda x: np.log(x + 1))\r\n",
@@ -897,7 +976,7 @@
         "    features_final = pd.get_dummies(features_log_minmax_transform)\r\n",
         "\r\n",
         "    # TODO: Encode the 'income_raw' data to numerical values\r\n",
-        "    income_raw = data['income']\r\n",
+        "    income_raw = dataset['income']\r\n",
         "    income = income_raw.map({\"<=50K\": 0,  \">50K\": 1})\r\n",
         "\r\n",
         "    # Print the number of features after one-hot encoding\r\n",
@@ -906,18 +985,28 @@
         "\r\n",
         "    return features_final, income\r\n",
         "\r\n",
-        "x, y = clean_data(ds)\r\n",
+        "# TODO: Create TabularDataset using TabularDatasetFactory\r\n",
+        "# Data is located at:\r\n",
+        "# \"https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv\"\r\n",
         "\r\n",
-        "input_payload = json.dumps({\r\n",
-        "    'data': json.loads(x[10:13].to_json(orient='records'))\r\n",
-        "})\r\n",
+        "datastore_path = \"https://raw.githubusercontent.com/HajimeK/machine-learning/master/projects/finding_donors/census.csv\"\r\n",
+        "data = pd.read_csv(datastore_path)\r\n",
+        "x, y = clean_data(data)\r\n",
         "\r\n",
-        "output = service.run(input_payload)\r\n",
-        "\r\n",
-        "print(f'output: {output}')"
+        "input_payload = json.loads(x[10:11].to_json(orient='records'))\r\n",
+        "print(input_payload)"
       ],
-      "outputs": [],
-      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "103 total features after one-hot encoding.\n",
+            "[{'age': 0.2739726027, 'education-num': 0.6, 'capital-gain': 0.0, 'capital-loss': 0.0, 'hours-per-week': 0.806122449, 'workclass_ Federal-gov': 0, 'workclass_ Local-gov': 0, 'workclass_ Private': 1, 'workclass_ Self-emp-inc': 0, 'workclass_ Self-emp-not-inc': 0, 'workclass_ State-gov': 0, 'workclass_ Without-pay': 0, 'education_level_ 10th': 0, 'education_level_ 11th': 0, 'education_level_ 12th': 0, 'education_level_ 1st-4th': 0, 'education_level_ 5th-6th': 0, 'education_level_ 7th-8th': 0, 'education_level_ 9th': 0, 'education_level_ Assoc-acdm': 0, 'education_level_ Assoc-voc': 0, 'education_level_ Bachelors': 0, 'education_level_ Doctorate': 0, 'education_level_ HS-grad': 0, 'education_level_ Masters': 0, 'education_level_ Preschool': 0, 'education_level_ Prof-school': 0, 'education_level_ Some-college': 1, 'marital-status_ Divorced': 0, 'marital-status_ Married-AF-spouse': 0, 'marital-status_ Married-civ-spouse': 1, 'marital-status_ Married-spouse-absent': 0, 'marital-status_ Never-married': 0, 'marital-status_ Separated': 0, 'marital-status_ Widowed': 0, 'occupation_ Adm-clerical': 0, 'occupation_ Armed-Forces': 0, 'occupation_ Craft-repair': 0, 'occupation_ Exec-managerial': 1, 'occupation_ Farming-fishing': 0, 'occupation_ Handlers-cleaners': 0, 'occupation_ Machine-op-inspct': 0, 'occupation_ Other-service': 0, 'occupation_ Priv-house-serv': 0, 'occupation_ Prof-specialty': 0, 'occupation_ Protective-serv': 0, 'occupation_ Sales': 0, 'occupation_ Tech-support': 0, 'occupation_ Transport-moving': 0, 'relationship_ Husband': 1, 'relationship_ Not-in-family': 0, 'relationship_ Other-relative': 0, 'relationship_ Own-child': 0, 'relationship_ Unmarried': 0, 'relationship_ Wife': 0, 'race_ Amer-Indian-Eskimo': 0, 'race_ Asian-Pac-Islander': 0, 'race_ Black': 1, 'race_ Other': 0, 'race_ White': 0, 'sex_ Female': 0, 'sex_ Male': 1, 'native-country_ Cambodia': 0, 'native-country_ Canada': 0, 'native-country_ China': 0, 'native-country_ Columbia': 0, 'native-country_ Cuba': 0, 'native-country_ Dominican-Republic': 0, 'native-country_ Ecuador': 0, 'native-country_ El-Salvador': 0, 'native-country_ England': 0, 'native-country_ France': 0, 'native-country_ Germany': 0, 'native-country_ Greece': 0, 'native-country_ Guatemala': 0, 'native-country_ Haiti': 0, 'native-country_ Holand-Netherlands': 0, 'native-country_ Honduras': 0, 'native-country_ Hong': 0, 'native-country_ Hungary': 0, 'native-country_ India': 0, 'native-country_ Iran': 0, 'native-country_ Ireland': 0, 'native-country_ Italy': 0, 'native-country_ Jamaica': 0, 'native-country_ Japan': 0, 'native-country_ Laos': 0, 'native-country_ Mexico': 0, 'native-country_ Nicaragua': 0, 'native-country_ Outlying-US(Guam-USVI-etc)': 0, 'native-country_ Peru': 0, 'native-country_ Philippines': 0, 'native-country_ Poland': 0, 'native-country_ Portugal': 0, 'native-country_ Puerto-Rico': 0, 'native-country_ Scotland': 0, 'native-country_ South': 0, 'native-country_ Taiwan': 0, 'native-country_ Thailand': 0, 'native-country_ Trinadad&Tobago': 0, 'native-country_ United-States': 1, 'native-country_ Vietnam': 0, 'native-country_ Yugoslavia': 0}]\n"
+          ]
+        }
+      ],
+      "execution_count": 118,
       "metadata": {
         "collapsed": true,
         "jupyter": {
@@ -930,17 +1019,58 @@
           }
         },
         "gather": {
-          "logged": 1626850788408
+          "logged": 1627134700622
         }
       }
     },
     {
       "cell_type": "code",
       "source": [
-        "!pip install inference-schema"
+        "import urllib.request\r\n",
+        "import json\r\n",
+        "import os\r\n",
+        "import ssl\r\n",
+        "\r\n",
+        "def allowSelfSignedHttps(allowed):\r\n",
+        "    # bypass the server certificate verification on client side\r\n",
+        "    if allowed and not os.environ.get('PYTHONHTTPSVERIFY', '') and getattr(ssl, '_create_unverified_context', None):\r\n",
+        "        ssl._create_default_https_context = ssl._create_unverified_context\r\n",
+        "\r\n",
+        "allowSelfSignedHttps(True) # this line is needed if you use self-signed certificate in your scoring service.\r\n",
+        "\r\n",
+        "# Request data goes here\r\n",
+        "data = '{\"age\":{\"0\":0.301369863},\"education-num\":{\"0\":0.8},\"capital-gain\":{\"0\":0.6674918523},\"capital-loss\":{\"0\":0.0},\"hours-per-week\":{\"0\":0.3979591837},\"workclass_ Federal-gov\":{\"0\":0},\"workclass_ Local-gov\":{\"0\":0},\"workclass_ Private\":{\"0\":0},\"workclass_ Self-emp-inc\":{\"0\":0},\"workclass_ Self-emp-not-inc\":{\"0\":0},\"workclass_ State-gov\":{\"0\":1},\"workclass_ Without-pay\":{\"0\":0},\"education_level_ 10th\":{\"0\":0},\"education_level_ 11th\":{\"0\":0},\"education_level_ 12th\":{\"0\":0},\"education_level_ 1st-4th\":{\"0\":0},\"education_level_ 5th-6th\":{\"0\":0},\"education_level_ 7th-8th\":{\"0\":0},\"education_level_ 9th\":{\"0\":0},\"education_level_ Assoc-acdm\":{\"0\":0},\"education_level_ Assoc-voc\":{\"0\":0},\"education_level_ Bachelors\":{\"0\":1},\"education_level_ Doctorate\":{\"0\":0},\"education_level_ HS-grad\":{\"0\":0},\"education_level_ Masters\":{\"0\":0},\"education_level_ Preschool\":{\"0\":0},\"education_level_ Prof-school\":{\"0\":0},\"education_level_ Some-college\":{\"0\":0},\"marital-status_ Divorced\":{\"0\":0},\"marital-status_ Married-AF-spouse\":{\"0\":0},\"marital-status_ Married-civ-spouse\":{\"0\":0},\"marital-status_ Married-spouse-absent\":{\"0\":0},\"marital-status_ Never-married\":{\"0\":1},\"marital-status_ Separated\":{\"0\":0},\"marital-status_ Widowed\":{\"0\":0},\"occupation_ Adm-clerical\":{\"0\":1},\"occupation_ Armed-Forces\":{\"0\":0},\"occupation_ Craft-repair\":{\"0\":0},\"occupation_ Exec-managerial\":{\"0\":0},\"occupation_ Farming-fishing\":{\"0\":0},\"occupation_ Handlers-cleaners\":{\"0\":0},\"occupation_ Machine-op-inspct\":{\"0\":0},\"occupation_ Other-service\":{\"0\":0},\"occupation_ Priv-house-serv\":{\"0\":0},\"occupation_ Prof-specialty\":{\"0\":0},\"occupation_ Protective-serv\":{\"0\":0},\"occupation_ Sales\":{\"0\":0},\"occupation_ Tech-support\":{\"0\":0},\"occupation_ Transport-moving\":{\"0\":0},\"relationship_ Husband\":{\"0\":0},\"relationship_ Not-in-family\":{\"0\":1},\"relationship_ Other-relative\":{\"0\":0},\"relationship_ Own-child\":{\"0\":0},\"relationship_ Unmarried\":{\"0\":0},\"relationship_ Wife\":{\"0\":0},\"race_ Amer-Indian-Eskimo\":{\"0\":0},\"race_ Asian-Pac-Islander\":{\"0\":0},\"race_ Black\":{\"0\":0},\"race_ Other\":{\"0\":0},\"race_ White\":{\"0\":1},\"sex_ Female\":{\"0\":0},\"sex_ Male\":{\"0\":1},\"native-country_ Cambodia\":{\"0\":0},\"native-country_ Canada\":{\"0\":0},\"native-country_ China\":{\"0\":0},\"native-country_ Columbia\":{\"0\":0},\"native-country_ Cuba\":{\"0\":0},\"native-country_ Dominican-Republic\":{\"0\":0},\"native-country_ Ecuador\":{\"0\":0},\"native-country_ El-Salvador\":{\"0\":0},\"native-country_ England\":{\"0\":0},\"native-country_ France\":{\"0\":0},\"native-country_ Germany\":{\"0\":0},\"native-country_ Greece\":{\"0\":0},\"native-country_ Guatemala\":{\"0\":0},\"native-country_ Haiti\":{\"0\":0},\"native-country_ Holand-Netherlands\":{\"0\":0},\"native-country_ Honduras\":{\"0\":0},\"native-country_ Hong\":{\"0\":0},\"native-country_ Hungary\":{\"0\":0},\"native-country_ India\":{\"0\":0},\"native-country_ Iran\":{\"0\":0},\"native-country_ Ireland\":{\"0\":0},\"native-country_ Italy\":{\"0\":0},\"native-country_ Jamaica\":{\"0\":0},\"native-country_ Japan\":{\"0\":0},\"native-country_ Laos\":{\"0\":0},\"native-country_ Mexico\":{\"0\":0},\"native-country_ Nicaragua\":{\"0\":0},\"native-country_ Outlying-US(Guam-USVI-etc)\":{\"0\":0},\"native-country_ Peru\":{\"0\":0},\"native-country_ Philippines\":{\"0\":0},\"native-country_ Poland\":{\"0\":0},\"native-country_ Portugal\":{\"0\":0},\"native-country_ Puerto-Rico\":{\"0\":0},\"native-country_ Scotland\":{\"0\":0},\"native-country_ South\":{\"0\":0},\"native-country_ Taiwan\":{\"0\":0},\"native-country_ Thailand\":{\"0\":0},\"native-country_ Trinadad&Tobago\":{\"0\":0},\"native-country_ United-States\":{\"0\":1},\"native-country_ Vietnam\":{\"0\":0},\"native-country_ Yugoslavia\":{\"0\":0}}'\r\n",
+        "body = str.encode(data)\r\n",
+        "#print(body)\r\n",
+        "\r\n",
+        "url = 'http://7ed71f60-2b15-4c93-8782-cc6f09c45496.japaneast.azurecontainer.io/score'\r\n",
+        "api_key = '' # Replace this with the API key for the web service\r\n",
+        "headers = {'Content-Type':'application/json'}\r\n",
+        "\r\n",
+        "req = urllib.request.Request(url, body, headers)\r\n",
+        "\r\n",
+        "try:\r\n",
+        "    response = urllib.request.urlopen(req)\r\n",
+        "\r\n",
+        "    result = response.read()\r\n",
+        "    print(result)\r\n",
+        "except urllib.error.HTTPError as error:\r\n",
+        "    print(\"The request failed with status code: \" + str(error.code))\r\n",
+        "\r\n",
+        "    # Print the headers - they include the requert ID and the timestamp, which are useful for debugging the failure\r\n",
+        "    print(error.info())\r\n",
+        "    print(json.loads(error.read().decode(\"utf8\", 'ignore')))\r\n"
       ],
-      "outputs": [],
-      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "b'\"{\\\\\"result\\\\\": [0]}\"'\n"
+          ]
+        }
+      ],
+      "execution_count": 124,
       "metadata": {
         "collapsed": true,
         "jupyter": {
@@ -951,80 +1081,9 @@
           "transient": {
             "deleting": false
           }
-        }
-      }
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "# ---------------------------------------------------------\r\n",
-        "# Copyright (c) Microsoft Corporation. All rights reserved.\r\n",
-        "# ---------------------------------------------------------\r\n",
-        "import json\r\n",
-        "import logging\r\n",
-        "import os\r\n",
-        "import pickle\r\n",
-        "import numpy as np\r\n",
-        "import pandas as pd\r\n",
-        "import joblib\r\n",
-        "\r\n",
-        "from azureml.core import Workspace\r\n",
-        "from azureml.core.model import Model\r\n",
-        "#from azureml.automl.core.shared import logging_utilities, log_server\r\n",
-        "#from azureml.telemetry import INSTRUMENTATION_KEY\r\n",
-        "\r\n",
-        "from inference_schema.schema_decorators import input_schema, output_schema\r\n",
-        "from inference_schema.parameter_types.numpy_parameter_type import NumpyParameterType\r\n",
-        "from inference_schema.parameter_types.pandas_parameter_type import PandasParameterType\r\n",
-        "\r\n",
-        "input_sample_string = '{\"age\":{\"0\":0.301369863},\"education-num\":{\"0\":0.8},\"capital-gain\":{\"0\":0.6674918523},\"capital-loss\":{\"0\":0.0},\"hours-per-week\":{\"0\":0.3979591837},\"workclass_ Federal-gov\":{\"0\":0},\"workclass_ Local-gov\":{\"0\":0},\"workclass_ Private\":{\"0\":0},\"workclass_ Self-emp-inc\":{\"0\":0},\"workclass_ Self-emp-not-inc\":{\"0\":0},\"workclass_ State-gov\":{\"0\":1},\"workclass_ Without-pay\":{\"0\":0},\"education_level_ 10th\":{\"0\":0},\"education_level_ 11th\":{\"0\":0},\"education_level_ 12th\":{\"0\":0},\"education_level_ 1st-4th\":{\"0\":0},\"education_level_ 5th-6th\":{\"0\":0},\"education_level_ 7th-8th\":{\"0\":0},\"education_level_ 9th\":{\"0\":0},\"education_level_ Assoc-acdm\":{\"0\":0},\"education_level_ Assoc-voc\":{\"0\":0},\"education_level_ Bachelors\":{\"0\":1},\"education_level_ Doctorate\":{\"0\":0},\"education_level_ HS-grad\":{\"0\":0},\"education_level_ Masters\":{\"0\":0},\"education_level_ Preschool\":{\"0\":0},\"education_level_ Prof-school\":{\"0\":0},\"education_level_ Some-college\":{\"0\":0},\"marital-status_ Divorced\":{\"0\":0},\"marital-status_ Married-AF-spouse\":{\"0\":0},\"marital-status_ Married-civ-spouse\":{\"0\":0},\"marital-status_ Married-spouse-absent\":{\"0\":0},\"marital-status_ Never-married\":{\"0\":1},\"marital-status_ Separated\":{\"0\":0},\"marital-status_ Widowed\":{\"0\":0},\"occupation_ Adm-clerical\":{\"0\":1},\"occupation_ Armed-Forces\":{\"0\":0},\"occupation_ Craft-repair\":{\"0\":0},\"occupation_ Exec-managerial\":{\"0\":0},\"occupation_ Farming-fishing\":{\"0\":0},\"occupation_ Handlers-cleaners\":{\"0\":0},\"occupation_ Machine-op-inspct\":{\"0\":0},\"occupation_ Other-service\":{\"0\":0},\"occupation_ Priv-house-serv\":{\"0\":0},\"occupation_ Prof-specialty\":{\"0\":0},\"occupation_ Protective-serv\":{\"0\":0},\"occupation_ Sales\":{\"0\":0},\"occupation_ Tech-support\":{\"0\":0},\"occupation_ Transport-moving\":{\"0\":0},\"relationship_ Husband\":{\"0\":0},\"relationship_ Not-in-family\":{\"0\":1},\"relationship_ Other-relative\":{\"0\":0},\"relationship_ Own-child\":{\"0\":0},\"relationship_ Unmarried\":{\"0\":0},\"relationship_ Wife\":{\"0\":0},\"race_ Amer-Indian-Eskimo\":{\"0\":0},\"race_ Asian-Pac-Islander\":{\"0\":0},\"race_ Black\":{\"0\":0},\"race_ Other\":{\"0\":0},\"race_ White\":{\"0\":1},\"sex_ Female\":{\"0\":0},\"sex_ Male\":{\"0\":1},\"native-country_ Cambodia\":{\"0\":0},\"native-country_ Canada\":{\"0\":0},\"native-country_ China\":{\"0\":0},\"native-country_ Columbia\":{\"0\":0},\"native-country_ Cuba\":{\"0\":0},\"native-country_ Dominican-Republic\":{\"0\":0},\"native-country_ Ecuador\":{\"0\":0},\"native-country_ El-Salvador\":{\"0\":0},\"native-country_ England\":{\"0\":0},\"native-country_ France\":{\"0\":0},\"native-country_ Germany\":{\"0\":0},\"native-country_ Greece\":{\"0\":0},\"native-country_ Guatemala\":{\"0\":0},\"native-country_ Haiti\":{\"0\":0},\"native-country_ Holand-Netherlands\":{\"0\":0},\"native-country_ Honduras\":{\"0\":0},\"native-country_ Hong\":{\"0\":0},\"native-country_ Hungary\":{\"0\":0},\"native-country_ India\":{\"0\":0},\"native-country_ Iran\":{\"0\":0},\"native-country_ Ireland\":{\"0\":0},\"native-country_ Italy\":{\"0\":0},\"native-country_ Jamaica\":{\"0\":0},\"native-country_ Japan\":{\"0\":0},\"native-country_ Laos\":{\"0\":0},\"native-country_ Mexico\":{\"0\":0},\"native-country_ Nicaragua\":{\"0\":0},\"native-country_ Outlying-US(Guam-USVI-etc)\":{\"0\":0},\"native-country_ Peru\":{\"0\":0},\"native-country_ Philippines\":{\"0\":0},\"native-country_ Poland\":{\"0\":0},\"native-country_ Portugal\":{\"0\":0},\"native-country_ Puerto-Rico\":{\"0\":0},\"native-country_ Scotland\":{\"0\":0},\"native-country_ South\":{\"0\":0},\"native-country_ Taiwan\":{\"0\":0},\"native-country_ Thailand\":{\"0\":0},\"native-country_ Trinadad&Tobago\":{\"0\":0},\"native-country_ United-States\":{\"0\":1},\"native-country_ Vietnam\":{\"0\":0},\"native-country_ Yugoslavia\":{\"0\":0}}'\r\n",
-        "input_sample = pd.read_json(input_sample_string)\r\n",
-        "output_sample = np.array([0])\r\n",
-        "\r\n",
-        "def init():\r\n",
-        "    global model\r\n",
-        "    # This name is model.id of model that we want to deploy deserialize the model file back\r\n",
-        "    # into a sklearn model\r\n",
-        "    #model_path = os.path.join(os.getenv('AZUREML_MODEL_DIR'), 'HD_0793bed5-0aa6-413f-b469-9c3db90cbf26_1.pkl')\r\n",
-        "    #model = joblib.load(model_path)\r\n",
-        "    workspace = Workspace.from_config()\r\n",
-        "    model_path = Model.get_model_path('hyperdrive_best_run', version=5, _workspace=workspace)\r\n",
-        "    model = joblib.load(model_path)\r\n",
-        "    #model = joblib.load('azureml-models/hyperdrive_best_run/3/HD_27ea35b2-9bd4-4cd5-9038-3c78e8702385_8.pkl')\r\n",
-        "    #print(model)\r\n",
-        "\r\n",
-        "@input_schema('data', PandasParameterType(input_sample))\r\n",
-        "@output_schema(NumpyParameterType(output_sample))\r\n",
-        "def run(data):\r\n",
-        "    try:\r\n",
-        "        result = model.predict(data)\r\n",
-        "        return json.dumps({\"result\": result.tolist()})\r\n",
-        "    except Exception as e:\r\n",
-        "        result = str(e)\r\n",
-        "        return json.dumps({\"error\": result})\r\n",
-        "\r\n",
-        "init()\r\n",
-        "run(input_sample)\r\n"
-      ],
-      "metadata": {
-        "nteract": {
-          "transient": {
-            "deleting": false
-          }
-        }
-      }
-    },
-    {
-      "cell_type": "markdown",
-      "source": [
-        "s =x[0:1].to_json()\r\n",
-        "pd.read_json(s)"
-      ],
-      "metadata": {
-        "nteract": {
-          "transient": {
-            "deleting": false
-          }
+        },
+        "gather": {
+          "logged": 1627136162629
         }
       }
     },
@@ -1034,7 +1093,7 @@
         "service.delete()"
       ],
       "outputs": [],
-      "execution_count": null,
+      "execution_count": 91,
       "metadata": {
         "collapsed": true,
         "jupyter": {
@@ -1047,7 +1106,7 @@
           }
         },
         "gather": {
-          "logged": 1626890121534
+          "logged": 1627117356201
         }
       }
     }
