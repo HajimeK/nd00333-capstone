@@ -10,10 +10,61 @@ On the otherhand, in the Hyperdrive models, the data is pre-processed with MinMa
 
 Here you can find AutoML could derive a better accuracy model as it searches a certain variety of models.
 
+Both models are deployed in an ACI instance and available for inferencing via a REST call. You can find the example of those REST calls in the last part of this report together with a screencast in YouTube.
+You see that the turn around time for the REST call is about 150 msec in this case.
+
+- [Finding Donors using a traditional census data in ML](#finding-donors-using-a-traditional-census-data-in-ml)
+  - [Dataset](#dataset)
+    - [Overview](#overview)
+    - [Task](#task)
+    - [Access](#access)
+  - [Automated ML](#automated-ml)
+    - [Results](#results)
+    - [Improvements](#improvements)
+  - [Hyperparameter Tuning](#hyperparameter-tuning)
+    - [Results](#results-1)
+  - [Model Deployment](#model-deployment)
+    - [AutoML](#automl)
+      - [REST call example](#rest-call-example)
+    - [Hyper Drive](#hyper-drive)
+      - [REST call example](#rest-call-example-1)
+  - [Screen Recording](#screen-recording)
+    - [Train AutoML and Hyperdrive models and deploy to each endpoints](#train-automl-and-hyperdrive-models-and-deploy-to-each-endpoints)
+    - [Consume endpoints with VSCode REST plug-in](#consume-endpoints-with-vscode-rest-plug-in)
+  - [Conclusion](#conclusion)
+
 ## Dataset
 ### Overview
 
 The modified census dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper *"Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid",* by Ron Kohavi. You may find this paper [online](https://www.aaai.org/Papers/KDD/1996/KDD96-033.pdf), with the original dataset hosted on [UCI](https://archive.ics.uci.edu/ml/datasets/Census+Income).
+
+This dataset is loaded to Azure Machine Learning Studio via GUI.
+
+![](ss/2021-07-25-10-58-58.png)
+
+The data can be consumed in the python code with the following code snippet.
+
+```
+# azureml-core of version 1.0.72 or higher is required
+# azureml-dataprep[pandas] of version 1.1.34 or higher is required
+from azureml.core import Workspace, Dataset
+
+subscription_id = <subscription id>
+resource_group = <resouce group name>
+workspace_name = <ML Workspace name>
+
+workspace = Workspace(subscription_id, resource_group, workspace_name)
+
+dataset = Dataset.get_by_name(workspace, name='Census Income Data Set')
+dataset.to_pandas_dataframe()
+```
+
+Or you can directly load from the source with the following code snippet.
+```
+datastore_path = "https://raw.githubusercontent.com/HajimeK/machine-learning/master/projects/finding_donors/census.csv"
+ds = TabularDatasetFactory.from_delimited_files(path=datastore_path)
+print(ds.to_pandas_dataframe())
+```
 
 **Features**
 - `age`: Age
@@ -77,6 +128,13 @@ Classification task is performed here as we need to predict into 2 classes with 
 In this example, maximizing the effectiveness of the efforts to approach to potential donors is prioritized. So the accuracy metrics is selected here.
 
 ### Results
+
+The best model was a Voting Ensemble model with a cv accuracy of 0.8714. 
+
+The ensemble implemented 
+
+#TODO 
+and had 12 estimators, one of them being Xgboost. It used a LabelEncoder to encode the label column and used botch character and word TFIDF to generate a total of 5190 features from the text column.
 
 ![](ss/2021-07-24-23-37-01.png)
 
@@ -157,10 +215,238 @@ Screenshots of the `RunDetails` widget and the best model trained (No 64) is pro
 ![](ss/2021-07-25-00-15-40.png)
 ![](ss/2021-07-25-00-18-17.png)
 
+You can find the best run in the Auto ML screenshot above with the Run ID *AutoML_6510da9c-eb20-4d0c-bdad-a5eb8210b07a_64*.
+
 In the portal we can seem the some metrics
 
 ![](ss/2021-07-25-00-20-53.png)
 ![](ss/2021-07-25-00-22-09.png)
+
+We get the *VotingEnsemble* model as the bet performing model.
+
+```
+datatransformer
+{'enable_dnn': False,
+ 'enable_feature_sweeping': True,
+ 'feature_sweeping_config': {},
+ 'feature_sweeping_timeout': 86400,
+ 'featurization_config': None,
+ 'force_text_dnn': False,
+ 'is_cross_validation': True,
+ 'is_onnx_compatible': False,
+ 'observer': None,
+ 'task': 'classification',
+ 'working_dir': '/mnt/batch/tasks/shared/LS_root/mounts/clusters/vmcapstone/code/Users/smec.kawata/nd00333-capstone/starter_file'}
+
+prefittedsoftvotingclassifier
+{'estimators': ['0', '48', '44', '56', '20', '23'],
+ 'weights': [0.26666666666666666,
+             0.3333333333333333,
+             0.2,
+             0.06666666666666667,
+             0.06666666666666667,
+             0.06666666666666667]}
+
+0 - maxabsscaler
+{'copy': True}
+
+0 - lightgbmclassifier
+{'min_data_in_leaf': 20,
+ 'n_jobs': 1,
+ 'problem_info': ProblemInfo(
+    dataset_samples=45222,
+    dataset_features=102,
+    dataset_classes=None,
+    dataset_num_categorical=0,
+    dataset_categoricals=None,
+    pipeline_categoricals=None,
+    dataset_y_std=None,
+    dataset_uid=None,
+    subsampling=False,
+    task='classification',
+    metric=None,
+    num_threads=1,
+    pipeline_profile='none',
+    is_sparse=True,
+    runtime_constraints={'mem_in_mb': None, 'wall_time_in_s': None, 'total_wall_time_in_s': 31449600, 'cpu_time_in_s': None, 'num_processes': None, 'grace_period_in_s': None},
+    constraint_mode=1,
+    cost_mode=1,
+    training_percent=100,
+    num_recommendations=1,
+    model_names_whitelisted=None,
+    model_names_blacklisted=None,
+    kernel='linear',
+    subsampling_treatment='linear',
+    subsampling_schedule='hyperband_clip',
+    cost_mode_param=None,
+    iteration_timeout_mode=0,
+    iteration_timeout_param=None,
+    feature_column_names=None,
+    label_column_name=None,
+    weight_column_name=None,
+    cv_split_column_names=None,
+    enable_streaming=None,
+    timeseries_param_dict=None,
+    gpu_training_param_dict={'processing_unit_type': 'cpu'}
+),
+ 'random_state': None}
+
+48 - standardscalerwrapper
+{'class_name': 'StandardScaler',
+ 'copy': True,
+ 'module_name': 'sklearn.preprocessing._data',
+ 'with_mean': False,
+ 'with_std': False}
+
+48 - xgboostclassifier
+{'base_score': 0.5,
+ 'booster': 'gbtree',
+ 'colsample_bylevel': 1,
+ 'colsample_bynode': 1,
+ 'colsample_bytree': 0.8,
+ 'eta': 0.3,
+ 'gamma': 0,
+ 'learning_rate': 0.1,
+ 'max_delta_step': 0,
+ 'max_depth': 4,
+ 'max_leaves': 0,
+ 'min_child_weight': 1,
+ 'missing': nan,
+ 'n_estimators': 600,
+ 'n_jobs': 1,
+ 'nthread': None,
+ 'objective': 'reg:logistic',
+ 'random_state': 0,
+ 'reg_alpha': 2.1875,
+ 'reg_lambda': 2.0833333333333335,
+ 'scale_pos_weight': 1,
+ 'seed': None,
+ 'silent': None,
+ 'subsample': 0.8,
+ 'tree_method': 'auto',
+ 'verbose': -10,
+ 'verbosity': 0}
+
+44 - standardscalerwrapper
+{'class_name': 'StandardScaler',
+ 'copy': True,
+ 'module_name': 'sklearn.preprocessing._data',
+ 'with_mean': False,
+ 'with_std': False}
+
+44 - xgboostclassifier
+{'base_score': 0.5,
+ 'booster': 'gbtree',
+ 'colsample_bylevel': 1,
+ 'colsample_bynode': 1,
+ 'colsample_bytree': 1,
+ 'eta': 0.1,
+ 'gamma': 0,
+ 'learning_rate': 0.1,
+ 'max_delta_step': 0,
+ 'max_depth': 9,
+ 'max_leaves': 0,
+ 'min_child_weight': 1,
+ 'missing': nan,
+ 'n_estimators': 100,
+ 'n_jobs': 1,
+ 'nthread': None,
+ 'objective': 'reg:logistic',
+ 'random_state': 0,
+ 'reg_alpha': 1.875,
+ 'reg_lambda': 0.625,
+ 'scale_pos_weight': 1,
+ 'seed': None,
+ 'silent': None,
+ 'subsample': 0.7,
+ 'tree_method': 'auto',
+ 'verbose': -10,
+ 'verbosity': 0}
+
+56 - sparsenormalizer
+{'copy': True, 'norm': 'l1'}
+
+56 - xgboostclassifier
+{'base_score': 0.5,
+ 'booster': 'gbtree',
+ 'colsample_bylevel': 1,
+ 'colsample_bynode': 1,
+ 'colsample_bytree': 1,
+ 'eta': 0.1,
+ 'gamma': 0,
+ 'learning_rate': 0.1,
+ 'max_delta_step': 0,
+ 'max_depth': 3,
+ 'max_leaves': 0,
+ 'min_child_weight': 1,
+ 'missing': nan,
+ 'n_estimators': 400,
+ 'n_jobs': 1,
+ 'nthread': None,
+ 'objective': 'reg:logistic',
+ 'random_state': 0,
+ 'reg_alpha': 0.3125,
+ 'reg_lambda': 0.9375,
+ 'scale_pos_weight': 1,
+ 'seed': None,
+ 'silent': None,
+ 'subsample': 0.8,
+ 'tree_method': 'auto',
+ 'verbose': -10,
+ 'verbosity': 0}
+
+20 - sparsenormalizer
+{'copy': True, 'norm': 'l2'}
+
+20 - xgboostclassifier
+{'base_score': 0.5,
+ 'booster': 'gbtree',
+ 'colsample_bylevel': 1,
+ 'colsample_bynode': 1,
+ 'colsample_bytree': 0.6,
+ 'eta': 0.3,
+ 'gamma': 1,
+ 'learning_rate': 0.1,
+ 'max_delta_step': 0,
+ 'max_depth': 6,
+ 'max_leaves': 31,
+ 'min_child_weight': 1,
+ 'missing': nan,
+ 'n_estimators': 200,
+ 'n_jobs': 1,
+ 'nthread': None,
+ 'objective': 'reg:logistic',
+ 'random_state': 0,
+ 'reg_alpha': 0,
+ 'reg_lambda': 1.6666666666666667,
+ 'scale_pos_weight': 1,
+ 'seed': None,
+ 'silent': None,
+ 'subsample': 0.9,
+ 'tree_method': 'auto',
+ 'verbose': -10,
+ 'verbosity': 0}
+
+23 - maxabsscaler
+{'copy': True}
+
+23 - logisticregression
+{'C': 24.420530945486497,
+ 'class_weight': None,
+ 'dual': False,
+ 'fit_intercept': True,
+ 'intercept_scaling': 1,
+ 'l1_ratio': None,
+ 'max_iter': 100,
+ 'multi_class': 'ovr',
+ 'n_jobs': 1,
+ 'penalty': 'l2',
+ 'random_state': None,
+ 'solver': 'saga',
+ 'tol': 0.0001,
+ 'verbose': 0,
+ 'warm_start': False}
+```
 
 
 ### Improvements
@@ -187,7 +473,16 @@ The parameters used for hyperparameter tuning are below that I have experieced w
 
 ### Results
 
-We get the following for the best model.
+We get the following for the best model with Run ID *HD_414d1634-fa02-4c03-a50d-39f4cff4733c_9*.
+
+![](ss/2021-07-25-10-43-20.png)
+
+The same can be obtained in the notebook as below.
+(Caution: The following comes from an output of another run. But you can get the same for the run in the report.)
+
+![](ss/2021-07-25-09-37-46.png)
+
+
 Accuracy 0.757
 Max iterations:5
 Number of Estimators:90
@@ -205,7 +500,6 @@ Also the best model output is highlighted by pointing a datapoint corresponds to
 ![](ss/2021-07-23-07-25-02.png)
 ![](ss/2021-07-23-07-28-29.png)
 ![](ss/2021-07-23-07-29-14.png)
-
 ![](ss/2021-07-25-01-10-36.png)
 
 
