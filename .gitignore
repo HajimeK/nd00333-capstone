@@ -12,3 +12,4 @@ starter_file/azureml_automl.log
 starter_file/automl.log
 starter_file/hyperparameter_tuning.ipynb.amltmp
 starter_file/scorehd.py.amltmp
+environments/**

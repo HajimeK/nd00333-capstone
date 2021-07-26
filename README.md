@@ -1,5 +1,6 @@
 # Finding Donors using a traditional census data in ML
 
+**Abstract**
 Using an traditional census data in Machine Learning studies, here I have derived prediction models to find potential donors.
 If the income is expected larger than 50K, we find the person as potential donors and put emphasis on the activity to ask for donations.
 
@@ -14,6 +15,7 @@ Both models are deployed in an ACI instance and available for inferencing via a 
 You see that the turn around time for the REST call is about 150 msec in this case.
 
 - [Finding Donors using a traditional census data in ML](#finding-donors-using-a-traditional-census-data-in-ml)
+  - [Outline of the work](#outline-of-the-work)
   - [Dataset](#dataset)
     - [Overview](#overview)
     - [Task](#task)
@@ -31,7 +33,13 @@ You see that the turn around time for the REST call is about 150 msec in this ca
   - [Screen Recording](#screen-recording)
     - [Train AutoML and Hyperdrive models and deploy to each endpoints](#train-automl-and-hyperdrive-models-and-deploy-to-each-endpoints)
     - [Consume endpoints with VSCode REST plug-in](#consume-endpoints-with-vscode-rest-plug-in)
-  - [Conclusion](#conclusion)
+  - [Future Improvement](#future-improvement)
+
+## Outline of the work
+
+Following explains the overall workflo reported in this document.
+
+![](ss/workflow.svg)
 
 ## Dataset
 ### Overview
@@ -42,7 +50,7 @@ This dataset is loaded to Azure Machine Learning Studio via GUI.
 
 ![](ss/2021-07-25-10-58-58.png)
 
-The data can be consumed in the python code with the following code snippet.
+The data can be consumed in the python code with the following code snippet. Here *subscription_id*, *resource_group*, and *workspace_name* are masked, and need to set proper value when actually loading data.
 
 ```
 # azureml-core of version 1.0.72 or higher is required
@@ -129,12 +137,20 @@ In this example, maximizing the effectiveness of the efforts to approach to pote
 
 ### Results
 
-The best model was a Voting Ensemble model with a cv accuracy of 0.8714. 
+The best model was a Voting Ensemble model with an accuracy of 0.8714 (See the transition of the BEST at ITERATION *64*). The ensemble has 6 estimators with pre-fitted soft voting classifier to predict the class label based on the argmax of the sums of the predicted probabilities (**Weight** in the below table).
 
-The ensemble implemented 
+| Classifier         | Preprocess            |              Weight |
+|:-------------------|:----------------------|--------------------:|
+| lightgbmclassifier | maxabsscaler          | 0.26666666666666666 |
+| xgboostclassifier  | standardscalerwrapper |  0.3333333333333333 |
+| xgboostclassifier  | standardscalerwrapper |                 0.2 |
+| xgboostclassifier  | sparsenormalizer      | 0.06666666666666667 |
+| xgboostclassifier  | sparsenormalizer      | 0.06666666666666667 |
+| logisticregression | maxabsscaler          | 0.06666666666666667 |
 
-#TODO 
-and had 12 estimators, one of them being Xgboost. It used a LabelEncoder to encode the label column and used botch character and word TFIDF to generate a total of 5190 features from the text column.
+2 xgboostclassiferes and 1 logisticregression  model is put higher weights than others.
+
+For detailed outputs including parapeter values from the experiment, please see below.
 
 ![](ss/2021-07-24-23-37-01.png)
 
@@ -223,6 +239,9 @@ In the portal we can seem the some metrics
 ![](ss/2021-07-25-00-22-09.png)
 
 We get the *VotingEnsemble* model as the bet performing model.
+This is the model of the following ensemble.
+
+* Detailed Estimator output *
 
 ```
 datatransformer
@@ -531,6 +550,7 @@ Acreenshots are provided with REST call examples.
 
 ![](ss/2021-07-25-02-01-12.png)
 
+
 ## Screen Recording
 
 ### Train AutoML and Hyperdrive models and deploy to each endpoints
@@ -541,12 +561,28 @@ https://youtu.be/78i1z5hWWco
 
 https://youtu.be/ElMeRdiwnqU
 
-## Conclusion
+
+
+## Future Improvement
 
 As stated some feature engineering attempted for hyperparameter tuning case.
 But it performs worse than the Auto ML.
 
-Auto ML is also not perfoming, leass than 0.9.
+Dataset might contain outliers for stable classifiyer. 
+- **Removing outliers**
+As stated some feature engineering attempted for hyperparameter tuning case.
+But it performs worse than the Auto ML. Ensemble model with different types of classifier worked.
+Auto ML is also not perfoming, the metrics value (accuracy) is less than 0.9.
 Seeing in the data processing, it is just converting data. Maybe further analysis on the outliers, PCA might contribute to more accurate and faster learnings.
 
 ![](ss/2021-07-25-02-19-18.png)
+
+
+- **Other metrics other than Accuracy should be tried**
+Auto ML is also not perfoming, the metrics value (accuracy) is less than 0.9.
+
+- **Enable Deep Learning**
+This case only shallow learning classifieres are selected. Enabling deep learining could imrove model performance by solving the potential unlinearlity feature in the dataset.
+
+- **Improving response time**
+The response time when calling from the client is around 150 msec. Considering to embed this model in the Web Application process, which includes visualization, data processing, page loading, and etc, model is better be deployed to the site close to the Web Application running in the networkd. Might better use ONNX model or utilize microservice deployment to achieve flexibility for deployjment.
